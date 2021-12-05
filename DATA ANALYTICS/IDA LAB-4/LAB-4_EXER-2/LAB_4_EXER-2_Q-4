@@ -1,0 +1,2022 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -I -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -c -1
+Relation:     supermarket-weka.filters.unsupervised.attribute.Remove-R1-9,11,57,70,79-81,88-89,98,100-102,107-114,116-120,122-130,137-179,189,192-199,201-216
+Instances:    4627
+Attributes:   106
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.15 (694 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 17
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 41
+
+Large Itemsets L(1):
+bread and cake=t 3330
+baking needs=t 2795
+juice-sat-cord-ms=t 2463
+tea=t 896
+biscuits=t 2605
+canned fish-meat=t 941
+canned fruit=t 1283
+canned vegetables=t 1577
+breakfast food=t 1862
+cigs-tobacco pkts=t 699
+cleaners-polishers=t 1262
+coffee=t 1094
+sauces-gravy-pkle=t 2201
+confectionary=t 1690
+puddings-deserts=t 788
+frozen foods=t 2717
+jams-spreads=t 1278
+pet foods=t 1867
+laundry needs=t 1563
+party snack foods=t 2330
+tissues-paper prd=t 2247
+wrapping=t 1336
+soft drinks=t 1888
+deodorants-soap=t 1078
+haircare=t 846
+dental needs=t 1064
+cheese=t 1879
+milk-cream=t 2939
+margarine=t 2288
+small goods=t 1116
+dairy foods=t 1669
+beef=t 1739
+poultry=t 739
+fruit=t 2962
+potatoes=t 734
+vegetables=t 2961
+stationary=t 1457
+prepared meals=t 1271
+small goods2=t 962
+total=low 2948
+total=high 1679
+
+Size of set of large itemsets L(2): 347
+
+Large Itemsets L(2):
+bread and cake=t baking needs=t 2191
+bread and cake=t juice-sat-cord-ms=t 1869
+bread and cake=t tea=t 709
+bread and cake=t biscuits=t 2083
+bread and cake=t canned fish-meat=t 754
+bread and cake=t canned fruit=t 1040
+bread and cake=t canned vegetables=t 1256
+bread and cake=t breakfast food=t 1441
+bread and cake=t cleaners-polishers=t 980
+bread and cake=t coffee=t 837
+bread and cake=t sauces-gravy-pkle=t 1710
+bread and cake=t confectionary=t 1288
+bread and cake=t frozen foods=t 2129
+bread and cake=t jams-spreads=t 1027
+bread and cake=t pet foods=t 1490
+bread and cake=t laundry needs=t 1234
+bread and cake=t party snack foods=t 1808
+bread and cake=t tissues-paper prd=t 1776
+bread and cake=t wrapping=t 1049
+bread and cake=t soft drinks=t 1429
+bread and cake=t deodorants-soap=t 843
+bread and cake=t dental needs=t 829
+bread and cake=t cheese=t 1492
+bread and cake=t milk-cream=t 2337
+bread and cake=t margarine=t 1831
+bread and cake=t small goods=t 932
+bread and cake=t dairy foods=t 1320
+bread and cake=t beef=t 1374
+bread and cake=t fruit=t 2325
+bread and cake=t vegetables=t 2298
+bread and cake=t stationary=t 1123
+bread and cake=t prepared meals=t 1014
+bread and cake=t small goods2=t 753
+bread and cake=t total=low 1917
+bread and cake=t total=high 1413
+baking needs=t juice-sat-cord-ms=t 1619
+baking needs=t biscuits=t 1764
+baking needs=t canned fruit=t 909
+baking needs=t canned vegetables=t 1138
+baking needs=t breakfast food=t 1335
+baking needs=t cleaners-polishers=t 900
+baking needs=t coffee=t 789
+baking needs=t sauces-gravy-pkle=t 1521
+baking needs=t confectionary=t 1097
+baking needs=t frozen foods=t 1835
+baking needs=t jams-spreads=t 936
+baking needs=t pet foods=t 1259
+baking needs=t laundry needs=t 1098
+baking needs=t party snack foods=t 1530
+baking needs=t tissues-paper prd=t 1573
+baking needs=t wrapping=t 975
+baking needs=t soft drinks=t 1197
+baking needs=t deodorants-soap=t 757
+baking needs=t dental needs=t 764
+baking needs=t cheese=t 1315
+baking needs=t milk-cream=t 1907
+baking needs=t margarine=t 1645
+baking needs=t small goods=t 779
+baking needs=t dairy foods=t 1125
+baking needs=t beef=t 1155
+baking needs=t fruit=t 1900
+baking needs=t vegetables=t 1949
+baking needs=t stationary=t 921
+baking needs=t prepared meals=t 899
+baking needs=t total=low 1515
+baking needs=t total=high 1280
+juice-sat-cord-ms=t biscuits=t 1542
+juice-sat-cord-ms=t canned fruit=t 784
+juice-sat-cord-ms=t canned vegetables=t 969
+juice-sat-cord-ms=t breakfast food=t 1163
+juice-sat-cord-ms=t cleaners-polishers=t 749
+juice-sat-cord-ms=t sauces-gravy-pkle=t 1324
+juice-sat-cord-ms=t confectionary=t 1000
+juice-sat-cord-ms=t frozen foods=t 1619
+juice-sat-cord-ms=t jams-spreads=t 770
+juice-sat-cord-ms=t pet foods=t 1100
+juice-sat-cord-ms=t laundry needs=t 977
+juice-sat-cord-ms=t party snack foods=t 1482
+juice-sat-cord-ms=t tissues-paper prd=t 1354
+juice-sat-cord-ms=t wrapping=t 827
+juice-sat-cord-ms=t soft drinks=t 1146
+juice-sat-cord-ms=t cheese=t 1148
+juice-sat-cord-ms=t milk-cream=t 1637
+juice-sat-cord-ms=t margarine=t 1362
+juice-sat-cord-ms=t dairy foods=t 1010
+juice-sat-cord-ms=t beef=t 976
+juice-sat-cord-ms=t fruit=t 1672
+juice-sat-cord-ms=t vegetables=t 1658
+juice-sat-cord-ms=t stationary=t 777
+juice-sat-cord-ms=t prepared meals=t 820
+juice-sat-cord-ms=t total=low 1345
+juice-sat-cord-ms=t total=high 1118
+biscuits=t canned fruit=t 882
+biscuits=t canned vegetables=t 1097
+biscuits=t breakfast food=t 1237
+biscuits=t cleaners-polishers=t 818
+biscuits=t coffee=t 719
+biscuits=t sauces-gravy-pkle=t 1406
+biscuits=t confectionary=t 1133
+biscuits=t frozen foods=t 1810
+biscuits=t jams-spreads=t 887
+biscuits=t pet foods=t 1185
+biscuits=t laundry needs=t 1023
+biscuits=t party snack foods=t 1592
+biscuits=t tissues-paper prd=t 1453
+biscuits=t wrapping=t 912
+biscuits=t soft drinks=t 1193
+biscuits=t deodorants-soap=t 710
+biscuits=t dental needs=t 722
+biscuits=t cheese=t 1227
+biscuits=t milk-cream=t 1767
+biscuits=t margarine=t 1493
+biscuits=t small goods=t 746
+biscuits=t dairy foods=t 1099
+biscuits=t beef=t 1065
+biscuits=t fruit=t 1837
+biscuits=t vegetables=t 1764
+biscuits=t stationary=t 896
+biscuits=t prepared meals=t 841
+biscuits=t total=low 1377
+biscuits=t total=high 1228
+canned fruit=t sauces-gravy-pkle=t 734
+canned fruit=t frozen foods=t 922
+canned fruit=t party snack foods=t 724
+canned fruit=t tissues-paper prd=t 738
+canned fruit=t milk-cream=t 886
+canned fruit=t margarine=t 782
+canned fruit=t fruit=t 936
+canned fruit=t vegetables=t 908
+canned vegetables=t breakfast food=t 792
+canned vegetables=t sauces-gravy-pkle=t 976
+canned vegetables=t frozen foods=t 1113
+canned vegetables=t pet foods=t 785
+canned vegetables=t party snack foods=t 915
+canned vegetables=t tissues-paper prd=t 967
+canned vegetables=t cheese=t 820
+canned vegetables=t milk-cream=t 1069
+canned vegetables=t margarine=t 985
+canned vegetables=t beef=t 710
+canned vegetables=t fruit=t 1126
+canned vegetables=t vegetables=t 1158
+canned vegetables=t total=low 753
+canned vegetables=t total=high 824
+breakfast food=t sauces-gravy-pkle=t 1033
+breakfast food=t confectionary=t 714
+breakfast food=t frozen foods=t 1263
+breakfast food=t pet foods=t 866
+breakfast food=t laundry needs=t 802
+breakfast food=t party snack foods=t 1094
+breakfast food=t tissues-paper prd=t 1096
+breakfast food=t soft drinks=t 800
+breakfast food=t cheese=t 913
+breakfast food=t milk-cream=t 1259
+breakfast food=t margarine=t 1102
+breakfast food=t dairy foods=t 797
+breakfast food=t beef=t 790
+breakfast food=t fruit=t 1305
+breakfast food=t vegetables=t 1277
+breakfast food=t prepared meals=t 711
+breakfast food=t total=low 929
+breakfast food=t total=high 933
+cleaners-polishers=t sauces-gravy-pkle=t 717
+cleaners-polishers=t frozen foods=t 841
+cleaners-polishers=t tissues-paper prd=t 785
+cleaners-polishers=t milk-cream=t 844
+cleaners-polishers=t margarine=t 761
+cleaners-polishers=t fruit=t 846
+cleaners-polishers=t vegetables=t 879
+coffee=t frozen foods=t 709
+coffee=t milk-cream=t 735
+coffee=t fruit=t 712
+coffee=t vegetables=t 747
+sauces-gravy-pkle=t confectionary=t 859
+sauces-gravy-pkle=t frozen foods=t 1497
+sauces-gravy-pkle=t jams-spreads=t 755
+sauces-gravy-pkle=t pet foods=t 1028
+sauces-gravy-pkle=t laundry needs=t 930
+sauces-gravy-pkle=t party snack foods=t 1312
+sauces-gravy-pkle=t tissues-paper prd=t 1290
+sauces-gravy-pkle=t wrapping=t 808
+sauces-gravy-pkle=t soft drinks=t 991
+sauces-gravy-pkle=t cheese=t 1081
+sauces-gravy-pkle=t milk-cream=t 1487
+sauces-gravy-pkle=t margarine=t 1261
+sauces-gravy-pkle=t dairy foods=t 921
+sauces-gravy-pkle=t beef=t 950
+sauces-gravy-pkle=t fruit=t 1490
+sauces-gravy-pkle=t vegetables=t 1558
+sauces-gravy-pkle=t stationary=t 743
+sauces-gravy-pkle=t prepared meals=t 811
+sauces-gravy-pkle=t total=low 1075
+sauces-gravy-pkle=t total=high 1126
+confectionary=t frozen foods=t 1084
+confectionary=t pet foods=t 751
+confectionary=t party snack foods=t 1023
+confectionary=t tissues-paper prd=t 875
+confectionary=t soft drinks=t 826
+confectionary=t cheese=t 748
+confectionary=t milk-cream=t 1153
+confectionary=t margarine=t 913
+confectionary=t fruit=t 1150
+confectionary=t vegetables=t 1102
+confectionary=t total=low 916
+confectionary=t total=high 774
+frozen foods=t jams-spreads=t 869
+frozen foods=t pet foods=t 1239
+frozen foods=t laundry needs=t 1062
+frozen foods=t party snack foods=t 1582
+frozen foods=t tissues-paper prd=t 1505
+frozen foods=t wrapping=t 922
+frozen foods=t soft drinks=t 1265
+frozen foods=t deodorants-soap=t 735
+frozen foods=t dental needs=t 739
+frozen foods=t cheese=t 1241
+frozen foods=t milk-cream=t 1826
+frozen foods=t margarine=t 1531
+frozen foods=t small goods=t 763
+frozen foods=t dairy foods=t 1106
+frozen foods=t beef=t 1195
+frozen foods=t fruit=t 1861
+frozen foods=t vegetables=t 1882
+frozen foods=t stationary=t 891
+frozen foods=t prepared meals=t 930
+frozen foods=t total=low 1444
+frozen foods=t total=high 1273
+jams-spreads=t party snack foods=t 750
+jams-spreads=t tissues-paper prd=t 775
+jams-spreads=t milk-cream=t 871
+jams-spreads=t margarine=t 829
+jams-spreads=t fruit=t 894
+jams-spreads=t vegetables=t 888
+pet foods=t laundry needs=t 798
+pet foods=t party snack foods=t 1084
+pet foods=t tissues-paper prd=t 1120
+pet foods=t soft drinks=t 837
+pet foods=t cheese=t 865
+pet foods=t milk-cream=t 1285
+pet foods=t margarine=t 1075
+pet foods=t dairy foods=t 782
+pet foods=t beef=t 864
+pet foods=t fruit=t 1300
+pet foods=t vegetables=t 1330
+pet foods=t total=low 909
+pet foods=t total=high 958
+laundry needs=t party snack foods=t 924
+laundry needs=t tissues-paper prd=t 1026
+laundry needs=t soft drinks=t 724
+laundry needs=t cheese=t 770
+laundry needs=t milk-cream=t 1061
+laundry needs=t margarine=t 989
+laundry needs=t fruit=t 1075
+laundry needs=t vegetables=t 1068
+laundry needs=t total=low 725
+laundry needs=t total=high 838
+party snack foods=t tissues-paper prd=t 1300
+party snack foods=t wrapping=t 831
+party snack foods=t soft drinks=t 1162
+party snack foods=t cheese=t 1110
+party snack foods=t milk-cream=t 1541
+party snack foods=t margarine=t 1235
+party snack foods=t dairy foods=t 1043
+party snack foods=t beef=t 918
+party snack foods=t fruit=t 1592
+party snack foods=t vegetables=t 1559
+party snack foods=t stationary=t 801
+party snack foods=t prepared meals=t 819
+party snack foods=t total=low 1210
+party snack foods=t total=high 1120
+tissues-paper prd=t wrapping=t 871
+tissues-paper prd=t soft drinks=t 1012
+tissues-paper prd=t deodorants-soap=t 713
+tissues-paper prd=t cheese=t 1107
+tissues-paper prd=t milk-cream=t 1514
+tissues-paper prd=t margarine=t 1349
+tissues-paper prd=t dairy foods=t 912
+tissues-paper prd=t beef=t 974
+tissues-paper prd=t fruit=t 1567
+tissues-paper prd=t vegetables=t 1559
+tissues-paper prd=t stationary=t 800
+tissues-paper prd=t prepared meals=t 778
+tissues-paper prd=t total=low 1091
+tissues-paper prd=t total=high 1156
+wrapping=t milk-cream=t 906
+wrapping=t margarine=t 828
+wrapping=t fruit=t 929
+wrapping=t vegetables=t 945
+wrapping=t total=high 740
+soft drinks=t cheese=t 829
+soft drinks=t milk-cream=t 1274
+soft drinks=t margarine=t 999
+soft drinks=t dairy foods=t 736
+soft drinks=t beef=t 729
+soft drinks=t fruit=t 1269
+soft drinks=t vegetables=t 1222
+soft drinks=t total=low 1008
+soft drinks=t total=high 880
+deodorants-soap=t milk-cream=t 714
+deodorants-soap=t fruit=t 736
+deodorants-soap=t vegetables=t 758
+dental needs=t fruit=t 713
+dental needs=t vegetables=t 714
+cheese=t milk-cream=t 1290
+cheese=t margarine=t 1169
+cheese=t dairy foods=t 826
+cheese=t beef=t 811
+cheese=t fruit=t 1313
+cheese=t vegetables=t 1341
+cheese=t total=low 929
+cheese=t total=high 950
+milk-cream=t margarine=t 1549
+milk-cream=t small goods=t 775
+milk-cream=t dairy foods=t 1141
+milk-cream=t beef=t 1168
+milk-cream=t fruit=t 2038
+milk-cream=t vegetables=t 2025
+milk-cream=t stationary=t 989
+milk-cream=t prepared meals=t 838
+milk-cream=t total=low 1722
+milk-cream=t total=high 1217
+margarine=t dairy foods=t 939
+margarine=t beef=t 985
+margarine=t fruit=t 1538
+margarine=t vegetables=t 1587
+margarine=t stationary=t 751
+margarine=t prepared meals=t 758
+margarine=t total=low 1199
+margarine=t total=high 1089
+small goods=t fruit=t 793
+small goods=t vegetables=t 822
+dairy foods=t fruit=t 1207
+dairy foods=t vegetables=t 1176
+dairy foods=t total=low 861
+dairy foods=t total=high 808
+beef=t fruit=t 1186
+beef=t vegetables=t 1288
+beef=t total=low 889
+beef=t total=high 850
+fruit=t vegetables=t 2207
+fruit=t stationary=t 1002
+fruit=t prepared meals=t 856
+fruit=t total=low 1719
+fruit=t total=high 1243
+vegetables=t stationary=t 966
+vegetables=t prepared meals=t 872
+vegetables=t total=low 1691
+vegetables=t total=high 1270
+stationary=t total=low 832
+
+Size of set of large itemsets L(3): 855
+
+Large Itemsets L(3):
+bread and cake=t baking needs=t juice-sat-cord-ms=t 1291
+bread and cake=t baking needs=t biscuits=t 1456
+bread and cake=t baking needs=t canned fruit=t 762
+bread and cake=t baking needs=t canned vegetables=t 939
+bread and cake=t baking needs=t breakfast food=t 1074
+bread and cake=t baking needs=t cleaners-polishers=t 726
+bread and cake=t baking needs=t sauces-gravy-pkle=t 1223
+bread and cake=t baking needs=t confectionary=t 880
+bread and cake=t baking needs=t frozen foods=t 1485
+bread and cake=t baking needs=t jams-spreads=t 765
+bread and cake=t baking needs=t pet foods=t 1044
+bread and cake=t baking needs=t laundry needs=t 903
+bread and cake=t baking needs=t party snack foods=t 1254
+bread and cake=t baking needs=t tissues-paper prd=t 1294
+bread and cake=t baking needs=t wrapping=t 792
+bread and cake=t baking needs=t soft drinks=t 953
+bread and cake=t baking needs=t cheese=t 1073
+bread and cake=t baking needs=t milk-cream=t 1580
+bread and cake=t baking needs=t margarine=t 1358
+bread and cake=t baking needs=t dairy foods=t 932
+bread and cake=t baking needs=t beef=t 961
+bread and cake=t baking needs=t fruit=t 1564
+bread and cake=t baking needs=t vegetables=t 1586
+bread and cake=t baking needs=t stationary=t 756
+bread and cake=t baking needs=t prepared meals=t 744
+bread and cake=t baking needs=t total=low 1074
+bread and cake=t baking needs=t total=high 1117
+bread and cake=t juice-sat-cord-ms=t biscuits=t 1259
+bread and cake=t juice-sat-cord-ms=t canned vegetables=t 783
+bread and cake=t juice-sat-cord-ms=t breakfast food=t 925
+bread and cake=t juice-sat-cord-ms=t sauces-gravy-pkle=t 1043
+bread and cake=t juice-sat-cord-ms=t confectionary=t 787
+bread and cake=t juice-sat-cord-ms=t frozen foods=t 1282
+bread and cake=t juice-sat-cord-ms=t pet foods=t 896
+bread and cake=t juice-sat-cord-ms=t laundry needs=t 775
+bread and cake=t juice-sat-cord-ms=t party snack foods=t 1181
+bread and cake=t juice-sat-cord-ms=t tissues-paper prd=t 1097
+bread and cake=t juice-sat-cord-ms=t soft drinks=t 888
+bread and cake=t juice-sat-cord-ms=t cheese=t 925
+bread and cake=t juice-sat-cord-ms=t milk-cream=t 1334
+bread and cake=t juice-sat-cord-ms=t margarine=t 1100
+bread and cake=t juice-sat-cord-ms=t dairy foods=t 821
+bread and cake=t juice-sat-cord-ms=t beef=t 795
+bread and cake=t juice-sat-cord-ms=t fruit=t 1356
+bread and cake=t juice-sat-cord-ms=t vegetables=t 1323
+bread and cake=t juice-sat-cord-ms=t total=low 913
+bread and cake=t juice-sat-cord-ms=t total=high 956
+bread and cake=t biscuits=t canned fruit=t 754
+bread and cake=t biscuits=t canned vegetables=t 916
+bread and cake=t biscuits=t breakfast food=t 1020
+bread and cake=t biscuits=t sauces-gravy-pkle=t 1148
+bread and cake=t biscuits=t confectionary=t 923
+bread and cake=t biscuits=t frozen foods=t 1510
+bread and cake=t biscuits=t jams-spreads=t 746
+bread and cake=t biscuits=t pet foods=t 999
+bread and cake=t biscuits=t laundry needs=t 846
+bread and cake=t biscuits=t party snack foods=t 1306
+bread and cake=t biscuits=t tissues-paper prd=t 1209
+bread and cake=t biscuits=t wrapping=t 755
+bread and cake=t biscuits=t soft drinks=t 969
+bread and cake=t biscuits=t cheese=t 1025
+bread and cake=t biscuits=t milk-cream=t 1485
+bread and cake=t biscuits=t margarine=t 1251
+bread and cake=t biscuits=t dairy foods=t 918
+bread and cake=t biscuits=t beef=t 903
+bread and cake=t biscuits=t fruit=t 1541
+bread and cake=t biscuits=t vegetables=t 1487
+bread and cake=t biscuits=t stationary=t 736
+bread and cake=t biscuits=t prepared meals=t 695
+bread and cake=t biscuits=t total=low 1001
+bread and cake=t biscuits=t total=high 1082
+bread and cake=t canned fruit=t frozen foods=t 765
+bread and cake=t canned fruit=t milk-cream=t 767
+bread and cake=t canned fruit=t fruit=t 799
+bread and cake=t canned fruit=t vegetables=t 769
+bread and cake=t canned vegetables=t sauces-gravy-pkle=t 801
+bread and cake=t canned vegetables=t frozen foods=t 921
+bread and cake=t canned vegetables=t party snack foods=t 758
+bread and cake=t canned vegetables=t tissues-paper prd=t 808
+bread and cake=t canned vegetables=t milk-cream=t 898
+bread and cake=t canned vegetables=t margarine=t 806
+bread and cake=t canned vegetables=t fruit=t 950
+bread and cake=t canned vegetables=t vegetables=t 968
+bread and cake=t canned vegetables=t total=high 725
+bread and cake=t breakfast food=t sauces-gravy-pkle=t 822
+bread and cake=t breakfast food=t frozen foods=t 1014
+bread and cake=t breakfast food=t pet foods=t 713
+bread and cake=t breakfast food=t party snack foods=t 888
+bread and cake=t breakfast food=t tissues-paper prd=t 886
+bread and cake=t breakfast food=t cheese=t 742
+bread and cake=t breakfast food=t milk-cream=t 1040
+bread and cake=t breakfast food=t margarine=t 900
+bread and cake=t breakfast food=t fruit=t 1071
+bread and cake=t breakfast food=t vegetables=t 1052
+bread and cake=t breakfast food=t total=high 801
+bread and cake=t cleaners-polishers=t frozen foods=t 696
+bread and cake=t cleaners-polishers=t milk-cream=t 707
+bread and cake=t cleaners-polishers=t fruit=t 708
+bread and cake=t cleaners-polishers=t vegetables=t 720
+bread and cake=t sauces-gravy-pkle=t frozen foods=t 1214
+bread and cake=t sauces-gravy-pkle=t pet foods=t 855
+bread and cake=t sauces-gravy-pkle=t laundry needs=t 762
+bread and cake=t sauces-gravy-pkle=t party snack foods=t 1062
+bread and cake=t sauces-gravy-pkle=t tissues-paper prd=t 1045
+bread and cake=t sauces-gravy-pkle=t soft drinks=t 787
+bread and cake=t sauces-gravy-pkle=t cheese=t 879
+bread and cake=t sauces-gravy-pkle=t milk-cream=t 1216
+bread and cake=t sauces-gravy-pkle=t margarine=t 1032
+bread and cake=t sauces-gravy-pkle=t dairy foods=t 752
+bread and cake=t sauces-gravy-pkle=t beef=t 787
+bread and cake=t sauces-gravy-pkle=t fruit=t 1226
+bread and cake=t sauces-gravy-pkle=t vegetables=t 1268
+bread and cake=t sauces-gravy-pkle=t total=low 743
+bread and cake=t sauces-gravy-pkle=t total=high 967
+bread and cake=t confectionary=t frozen foods=t 869
+bread and cake=t confectionary=t party snack foods=t 820
+bread and cake=t confectionary=t tissues-paper prd=t 733
+bread and cake=t confectionary=t milk-cream=t 943
+bread and cake=t confectionary=t margarine=t 754
+bread and cake=t confectionary=t fruit=t 934
+bread and cake=t confectionary=t vegetables=t 891
+bread and cake=t frozen foods=t jams-spreads=t 724
+bread and cake=t frozen foods=t pet foods=t 1033
+bread and cake=t frozen foods=t laundry needs=t 864
+bread and cake=t frozen foods=t party snack foods=t 1283
+bread and cake=t frozen foods=t tissues-paper prd=t 1239
+bread and cake=t frozen foods=t wrapping=t 758
+bread and cake=t frozen foods=t soft drinks=t 1015
+bread and cake=t frozen foods=t cheese=t 1023
+bread and cake=t frozen foods=t milk-cream=t 1516
+bread and cake=t frozen foods=t margarine=t 1249
+bread and cake=t frozen foods=t dairy foods=t 911
+bread and cake=t frozen foods=t beef=t 982
+bread and cake=t frozen foods=t fruit=t 1548
+bread and cake=t frozen foods=t vegetables=t 1548
+bread and cake=t frozen foods=t stationary=t 730
+bread and cake=t frozen foods=t prepared meals=t 764
+bread and cake=t frozen foods=t total=low 1012
+bread and cake=t frozen foods=t total=high 1117
+bread and cake=t jams-spreads=t milk-cream=t 748
+bread and cake=t jams-spreads=t fruit=t 761
+bread and cake=t jams-spreads=t vegetables=t 744
+bread and cake=t pet foods=t party snack foods=t 899
+bread and cake=t pet foods=t tissues-paper prd=t 925
+bread and cake=t pet foods=t cheese=t 735
+bread and cake=t pet foods=t milk-cream=t 1081
+bread and cake=t pet foods=t margarine=t 905
+bread and cake=t pet foods=t beef=t 728
+bread and cake=t pet foods=t fruit=t 1093
+bread and cake=t pet foods=t vegetables=t 1104
+bread and cake=t pet foods=t total=high 839
+bread and cake=t laundry needs=t party snack foods=t 765
+bread and cake=t laundry needs=t tissues-paper prd=t 843
+bread and cake=t laundry needs=t milk-cream=t 892
+bread and cake=t laundry needs=t margarine=t 794
+bread and cake=t laundry needs=t fruit=t 899
+bread and cake=t laundry needs=t vegetables=t 889
+bread and cake=t laundry needs=t total=high 720
+bread and cake=t party snack foods=t tissues-paper prd=t 1067
+bread and cake=t party snack foods=t soft drinks=t 909
+bread and cake=t party snack foods=t cheese=t 916
+bread and cake=t party snack foods=t milk-cream=t 1275
+bread and cake=t party snack foods=t margarine=t 1022
+bread and cake=t party snack foods=t dairy foods=t 842
+bread and cake=t party snack foods=t beef=t 758
+bread and cake=t party snack foods=t fruit=t 1321
+bread and cake=t party snack foods=t vegetables=t 1273
+bread and cake=t party snack foods=t total=low 829
+bread and cake=t party snack foods=t total=high 979
+bread and cake=t tissues-paper prd=t wrapping=t 713
+bread and cake=t tissues-paper prd=t soft drinks=t 819
+bread and cake=t tissues-paper prd=t cheese=t 919
+bread and cake=t tissues-paper prd=t milk-cream=t 1275
+bread and cake=t tissues-paper prd=t margarine=t 1113
+bread and cake=t tissues-paper prd=t dairy foods=t 760
+bread and cake=t tissues-paper prd=t beef=t 824
+bread and cake=t tissues-paper prd=t fruit=t 1297
+bread and cake=t tissues-paper prd=t vegetables=t 1293
+bread and cake=t tissues-paper prd=t total=low 772
+bread and cake=t tissues-paper prd=t total=high 1004
+bread and cake=t wrapping=t milk-cream=t 753
+bread and cake=t wrapping=t fruit=t 766
+bread and cake=t wrapping=t vegetables=t 780
+bread and cake=t soft drinks=t milk-cream=t 1035
+bread and cake=t soft drinks=t margarine=t 806
+bread and cake=t soft drinks=t fruit=t 1028
+bread and cake=t soft drinks=t vegetables=t 975
+bread and cake=t soft drinks=t total=high 757
+bread and cake=t cheese=t milk-cream=t 1072
+bread and cake=t cheese=t margarine=t 965
+bread and cake=t cheese=t fruit=t 1112
+bread and cake=t cheese=t vegetables=t 1110
+bread and cake=t cheese=t total=high 834
+bread and cake=t milk-cream=t margarine=t 1299
+bread and cake=t milk-cream=t dairy foods=t 942
+bread and cake=t milk-cream=t beef=t 979
+bread and cake=t milk-cream=t fruit=t 1684
+bread and cake=t milk-cream=t vegetables=t 1658
+bread and cake=t milk-cream=t stationary=t 805
+bread and cake=t milk-cream=t prepared meals=t 703
+bread and cake=t milk-cream=t total=low 1266
+bread and cake=t milk-cream=t total=high 1071
+bread and cake=t margarine=t dairy foods=t 788
+bread and cake=t margarine=t beef=t 808
+bread and cake=t margarine=t fruit=t 1301
+bread and cake=t margarine=t vegetables=t 1322
+bread and cake=t margarine=t total=low 885
+bread and cake=t margarine=t total=high 946
+bread and cake=t small goods=t vegetables=t 700
+bread and cake=t dairy foods=t fruit=t 988
+bread and cake=t dairy foods=t vegetables=t 966
+bread and cake=t dairy foods=t total=high 713
+bread and cake=t beef=t fruit=t 994
+bread and cake=t beef=t vegetables=t 1062
+bread and cake=t beef=t total=high 750
+bread and cake=t fruit=t vegetables=t 1791
+bread and cake=t fruit=t stationary=t 805
+bread and cake=t fruit=t prepared meals=t 723
+bread and cake=t fruit=t total=low 1221
+bread and cake=t fruit=t total=high 1104
+bread and cake=t vegetables=t stationary=t 788
+bread and cake=t vegetables=t prepared meals=t 724
+bread and cake=t vegetables=t total=low 1188
+bread and cake=t vegetables=t total=high 1110
+baking needs=t juice-sat-cord-ms=t biscuits=t 1097
+baking needs=t juice-sat-cord-ms=t canned vegetables=t 727
+baking needs=t juice-sat-cord-ms=t breakfast food=t 865
+baking needs=t juice-sat-cord-ms=t sauces-gravy-pkle=t 950
+baking needs=t juice-sat-cord-ms=t confectionary=t 695
+baking needs=t juice-sat-cord-ms=t frozen foods=t 1152
+baking needs=t juice-sat-cord-ms=t pet foods=t 772
+baking needs=t juice-sat-cord-ms=t laundry needs=t 715
+baking needs=t juice-sat-cord-ms=t party snack foods=t 1031
+baking needs=t juice-sat-cord-ms=t tissues-paper prd=t 986
+baking needs=t juice-sat-cord-ms=t soft drinks=t 759
+baking needs=t juice-sat-cord-ms=t cheese=t 833
+baking needs=t juice-sat-cord-ms=t milk-cream=t 1112
+baking needs=t juice-sat-cord-ms=t margarine=t 1018
+baking needs=t juice-sat-cord-ms=t dairy foods=t 710
+baking needs=t juice-sat-cord-ms=t fruit=t 1117
+baking needs=t juice-sat-cord-ms=t vegetables=t 1146
+baking needs=t juice-sat-cord-ms=t total=low 742
+baking needs=t juice-sat-cord-ms=t total=high 877
+baking needs=t biscuits=t canned vegetables=t 819
+baking needs=t biscuits=t breakfast food=t 934
+baking needs=t biscuits=t sauces-gravy-pkle=t 1038
+baking needs=t biscuits=t confectionary=t 794
+baking needs=t biscuits=t frozen foods=t 1316
+baking needs=t biscuits=t pet foods=t 861
+baking needs=t biscuits=t laundry needs=t 758
+baking needs=t biscuits=t party snack foods=t 1116
+baking needs=t biscuits=t tissues-paper prd=t 1077
+baking needs=t biscuits=t wrapping=t 700
+baking needs=t biscuits=t soft drinks=t 826
+baking needs=t biscuits=t cheese=t 900
+baking needs=t biscuits=t milk-cream=t 1232
+baking needs=t biscuits=t margarine=t 1128
+baking needs=t biscuits=t dairy foods=t 798
+baking needs=t biscuits=t beef=t 775
+baking needs=t biscuits=t fruit=t 1277
+baking needs=t biscuits=t vegetables=t 1263
+baking needs=t biscuits=t total=low 778
+baking needs=t biscuits=t total=high 986
+baking needs=t canned vegetables=t sauces-gravy-pkle=t 724
+baking needs=t canned vegetables=t frozen foods=t 842
+baking needs=t canned vegetables=t party snack foods=t 695
+baking needs=t canned vegetables=t tissues-paper prd=t 749
+baking needs=t canned vegetables=t milk-cream=t 792
+baking needs=t canned vegetables=t margarine=t 766
+baking needs=t canned vegetables=t fruit=t 817
+baking needs=t canned vegetables=t vegetables=t 853
+baking needs=t breakfast food=t sauces-gravy-pkle=t 782
+baking needs=t breakfast food=t frozen foods=t 963
+baking needs=t breakfast food=t party snack foods=t 810
+baking needs=t breakfast food=t tissues-paper prd=t 843
+baking needs=t breakfast food=t cheese=t 707
+baking needs=t breakfast food=t milk-cream=t 915
+baking needs=t breakfast food=t margarine=t 870
+baking needs=t breakfast food=t fruit=t 955
+baking needs=t breakfast food=t vegetables=t 949
+baking needs=t breakfast food=t total=high 754
+baking needs=t sauces-gravy-pkle=t frozen foods=t 1089
+baking needs=t sauces-gravy-pkle=t pet foods=t 752
+baking needs=t sauces-gravy-pkle=t laundry needs=t 697
+baking needs=t sauces-gravy-pkle=t party snack foods=t 954
+baking needs=t sauces-gravy-pkle=t tissues-paper prd=t 967
+baking needs=t sauces-gravy-pkle=t soft drinks=t 699
+baking needs=t sauces-gravy-pkle=t cheese=t 805
+baking needs=t sauces-gravy-pkle=t milk-cream=t 1057
+baking needs=t sauces-gravy-pkle=t margarine=t 956
+baking needs=t sauces-gravy-pkle=t fruit=t 1045
+baking needs=t sauces-gravy-pkle=t vegetables=t 1117
+baking needs=t sauces-gravy-pkle=t total=high 908
+baking needs=t confectionary=t frozen foods=t 765
+baking needs=t confectionary=t party snack foods=t 702
+baking needs=t confectionary=t milk-cream=t 796
+baking needs=t confectionary=t fruit=t 762
+baking needs=t confectionary=t vegetables=t 781
+baking needs=t frozen foods=t pet foods=t 888
+baking needs=t frozen foods=t laundry needs=t 780
+baking needs=t frozen foods=t party snack foods=t 1112
+baking needs=t frozen foods=t tissues-paper prd=t 1118
+baking needs=t frozen foods=t wrapping=t 714
+baking needs=t frozen foods=t soft drinks=t 864
+baking needs=t frozen foods=t cheese=t 919
+baking needs=t frozen foods=t milk-cream=t 1276
+baking needs=t frozen foods=t margarine=t 1165
+baking needs=t frozen foods=t dairy foods=t 801
+baking needs=t frozen foods=t beef=t 850
+baking needs=t frozen foods=t fruit=t 1281
+baking needs=t frozen foods=t vegetables=t 1329
+baking needs=t frozen foods=t prepared meals=t 698
+baking needs=t frozen foods=t total=low 817
+baking needs=t frozen foods=t total=high 1018
+baking needs=t pet foods=t party snack foods=t 769
+baking needs=t pet foods=t tissues-paper prd=t 829
+baking needs=t pet foods=t milk-cream=t 907
+baking needs=t pet foods=t margarine=t 814
+baking needs=t pet foods=t fruit=t 897
+baking needs=t pet foods=t vegetables=t 945
+baking needs=t pet foods=t total=high 756
+baking needs=t laundry needs=t tissues-paper prd=t 771
+baking needs=t laundry needs=t milk-cream=t 765
+baking needs=t laundry needs=t margarine=t 756
+baking needs=t laundry needs=t fruit=t 765
+baking needs=t laundry needs=t vegetables=t 779
+baking needs=t party snack foods=t tissues-paper prd=t 939
+baking needs=t party snack foods=t soft drinks=t 760
+baking needs=t party snack foods=t cheese=t 808
+baking needs=t party snack foods=t milk-cream=t 1052
+baking needs=t party snack foods=t margarine=t 926
+baking needs=t party snack foods=t dairy foods=t 730
+baking needs=t party snack foods=t fruit=t 1068
+baking needs=t party snack foods=t vegetables=t 1089
+baking needs=t party snack foods=t total=high 886
+baking needs=t tissues-paper prd=t soft drinks=t 736
+baking needs=t tissues-paper prd=t cheese=t 830
+baking needs=t tissues-paper prd=t milk-cream=t 1104
+baking needs=t tissues-paper prd=t margarine=t 1041
+baking needs=t tissues-paper prd=t beef=t 730
+baking needs=t tissues-paper prd=t fruit=t 1116
+baking needs=t tissues-paper prd=t vegetables=t 1139
+baking needs=t tissues-paper prd=t total=high 933
+baking needs=t wrapping=t vegetables=t 721
+baking needs=t soft drinks=t milk-cream=t 846
+baking needs=t soft drinks=t margarine=t 723
+baking needs=t soft drinks=t fruit=t 839
+baking needs=t soft drinks=t vegetables=t 833
+baking needs=t cheese=t milk-cream=t 929
+baking needs=t cheese=t margarine=t 880
+baking needs=t cheese=t fruit=t 934
+baking needs=t cheese=t vegetables=t 981
+baking needs=t cheese=t total=high 761
+baking needs=t milk-cream=t margarine=t 1142
+baking needs=t milk-cream=t dairy foods=t 803
+baking needs=t milk-cream=t beef=t 821
+baking needs=t milk-cream=t fruit=t 1365
+baking needs=t milk-cream=t vegetables=t 1392
+baking needs=t milk-cream=t total=low 952
+baking needs=t milk-cream=t total=high 955
+baking needs=t margarine=t dairy foods=t 701
+baking needs=t margarine=t beef=t 740
+baking needs=t margarine=t fruit=t 1129
+baking needs=t margarine=t vegetables=t 1181
+baking needs=t margarine=t total=low 747
+baking needs=t margarine=t total=high 898
+baking needs=t dairy foods=t fruit=t 831
+baking needs=t dairy foods=t vegetables=t 829
+baking needs=t beef=t fruit=t 830
+baking needs=t beef=t vegetables=t 913
+baking needs=t fruit=t vegetables=t 1489
+baking needs=t fruit=t total=low 937
+baking needs=t fruit=t total=high 963
+baking needs=t vegetables=t total=low 948
+baking needs=t vegetables=t total=high 1001
+juice-sat-cord-ms=t biscuits=t canned vegetables=t 721
+juice-sat-cord-ms=t biscuits=t breakfast food=t 824
+juice-sat-cord-ms=t biscuits=t sauces-gravy-pkle=t 907
+juice-sat-cord-ms=t biscuits=t confectionary=t 720
+juice-sat-cord-ms=t biscuits=t frozen foods=t 1141
+juice-sat-cord-ms=t biscuits=t pet foods=t 763
+juice-sat-cord-ms=t biscuits=t party snack foods=t 1068
+juice-sat-cord-ms=t biscuits=t tissues-paper prd=t 941
+juice-sat-cord-ms=t biscuits=t soft drinks=t 759
+juice-sat-cord-ms=t biscuits=t cheese=t 811
+juice-sat-cord-ms=t biscuits=t milk-cream=t 1058
+juice-sat-cord-ms=t biscuits=t margarine=t 957
+juice-sat-cord-ms=t biscuits=t dairy foods=t 715
+juice-sat-cord-ms=t biscuits=t fruit=t 1121
+juice-sat-cord-ms=t biscuits=t vegetables=t 1075
+juice-sat-cord-ms=t biscuits=t total=high 861
+juice-sat-cord-ms=t canned vegetables=t frozen foods=t 742
+juice-sat-cord-ms=t canned vegetables=t fruit=t 707
+juice-sat-cord-ms=t canned vegetables=t vegetables=t 717
+juice-sat-cord-ms=t breakfast food=t frozen foods=t 837
+juice-sat-cord-ms=t breakfast food=t party snack foods=t 765
+juice-sat-cord-ms=t breakfast food=t tissues-paper prd=t 725
+juice-sat-cord-ms=t breakfast food=t milk-cream=t 789
+juice-sat-cord-ms=t breakfast food=t margarine=t 728
+juice-sat-cord-ms=t breakfast food=t fruit=t 831
+juice-sat-cord-ms=t breakfast food=t vegetables=t 815
+juice-sat-cord-ms=t sauces-gravy-pkle=t frozen foods=t 958
+juice-sat-cord-ms=t sauces-gravy-pkle=t party snack foods=t 897
+juice-sat-cord-ms=t sauces-gravy-pkle=t tissues-paper prd=t 815
+juice-sat-cord-ms=t sauces-gravy-pkle=t cheese=t 716
+juice-sat-cord-ms=t sauces-gravy-pkle=t milk-cream=t 905
+juice-sat-cord-ms=t sauces-gravy-pkle=t margarine=t 818
+juice-sat-cord-ms=t sauces-gravy-pkle=t fruit=t 934
+juice-sat-cord-ms=t sauces-gravy-pkle=t vegetables=t 949
+juice-sat-cord-ms=t sauces-gravy-pkle=t total=high 791
+juice-sat-cord-ms=t confectionary=t milk-cream=t 698
+juice-sat-cord-ms=t confectionary=t fruit=t 709
+juice-sat-cord-ms=t frozen foods=t pet foods=t 786
+juice-sat-cord-ms=t frozen foods=t laundry needs=t 711
+juice-sat-cord-ms=t frozen foods=t party snack foods=t 1058
+juice-sat-cord-ms=t frozen foods=t tissues-paper prd=t 964
+juice-sat-cord-ms=t frozen foods=t soft drinks=t 806
+juice-sat-cord-ms=t frozen foods=t cheese=t 817
+juice-sat-cord-ms=t frozen foods=t milk-cream=t 1104
+juice-sat-cord-ms=t frozen foods=t margarine=t 986
+juice-sat-cord-ms=t frozen foods=t dairy foods=t 719
+juice-sat-cord-ms=t frozen foods=t beef=t 723
+juice-sat-cord-ms=t frozen foods=t fruit=t 1151
+juice-sat-cord-ms=t frozen foods=t vegetables=t 1159
+juice-sat-cord-ms=t frozen foods=t total=low 728
+juice-sat-cord-ms=t frozen foods=t total=high 891
+juice-sat-cord-ms=t pet foods=t party snack foods=t 734
+juice-sat-cord-ms=t pet foods=t tissues-paper prd=t 698
+juice-sat-cord-ms=t pet foods=t milk-cream=t 754
+juice-sat-cord-ms=t pet foods=t fruit=t 783
+juice-sat-cord-ms=t pet foods=t vegetables=t 786
+juice-sat-cord-ms=t party snack foods=t tissues-paper prd=t 895
+juice-sat-cord-ms=t party snack foods=t soft drinks=t 782
+juice-sat-cord-ms=t party snack foods=t cheese=t 761
+juice-sat-cord-ms=t party snack foods=t milk-cream=t 983
+juice-sat-cord-ms=t party snack foods=t margarine=t 855
+juice-sat-cord-ms=t party snack foods=t dairy foods=t 702
+juice-sat-cord-ms=t party snack foods=t fruit=t 1038
+juice-sat-cord-ms=t party snack foods=t vegetables=t 1021
+juice-sat-cord-ms=t party snack foods=t total=high 820
+juice-sat-cord-ms=t tissues-paper prd=t cheese=t 736
+juice-sat-cord-ms=t tissues-paper prd=t milk-cream=t 925
+juice-sat-cord-ms=t tissues-paper prd=t margarine=t 882
+juice-sat-cord-ms=t tissues-paper prd=t fruit=t 962
+juice-sat-cord-ms=t tissues-paper prd=t vegetables=t 958
+juice-sat-cord-ms=t tissues-paper prd=t total=high 815
+juice-sat-cord-ms=t soft drinks=t milk-cream=t 782
+juice-sat-cord-ms=t soft drinks=t fruit=t 806
+juice-sat-cord-ms=t soft drinks=t vegetables=t 775
+juice-sat-cord-ms=t cheese=t milk-cream=t 787
+juice-sat-cord-ms=t cheese=t margarine=t 761
+juice-sat-cord-ms=t cheese=t fruit=t 825
+juice-sat-cord-ms=t cheese=t vegetables=t 848
+juice-sat-cord-ms=t milk-cream=t margarine=t 932
+juice-sat-cord-ms=t milk-cream=t dairy foods=t 699
+juice-sat-cord-ms=t milk-cream=t fruit=t 1173
+juice-sat-cord-ms=t milk-cream=t vegetables=t 1151
+juice-sat-cord-ms=t milk-cream=t total=low 813
+juice-sat-cord-ms=t milk-cream=t total=high 824
+juice-sat-cord-ms=t margarine=t fruit=t 947
+juice-sat-cord-ms=t margarine=t vegetables=t 969
+juice-sat-cord-ms=t margarine=t total=high 768
+juice-sat-cord-ms=t dairy foods=t fruit=t 748
+juice-sat-cord-ms=t dairy foods=t vegetables=t 735
+juice-sat-cord-ms=t beef=t fruit=t 717
+juice-sat-cord-ms=t beef=t vegetables=t 757
+juice-sat-cord-ms=t fruit=t vegetables=t 1284
+juice-sat-cord-ms=t fruit=t total=low 817
+juice-sat-cord-ms=t fruit=t total=high 855
+juice-sat-cord-ms=t vegetables=t total=low 796
+juice-sat-cord-ms=t vegetables=t total=high 862
+biscuits=t canned vegetables=t sauces-gravy-pkle=t 726
+biscuits=t canned vegetables=t frozen foods=t 856
+biscuits=t canned vegetables=t party snack foods=t 704
+biscuits=t canned vegetables=t tissues-paper prd=t 715
+biscuits=t canned vegetables=t milk-cream=t 751
+biscuits=t canned vegetables=t margarine=t 740
+biscuits=t canned vegetables=t fruit=t 818
+biscuits=t canned vegetables=t vegetables=t 816
+biscuits=t breakfast food=t sauces-gravy-pkle=t 740
+biscuits=t breakfast food=t frozen foods=t 939
+biscuits=t breakfast food=t party snack foods=t 822
+biscuits=t breakfast food=t tissues-paper prd=t 788
+biscuits=t breakfast food=t milk-cream=t 852
+biscuits=t breakfast food=t margarine=t 795
+biscuits=t breakfast food=t fruit=t 903
+biscuits=t breakfast food=t vegetables=t 876
+biscuits=t breakfast food=t total=high 742
+biscuits=t sauces-gravy-pkle=t frozen foods=t 1077
+biscuits=t sauces-gravy-pkle=t pet foods=t 732
+biscuits=t sauces-gravy-pkle=t party snack foods=t 964
+biscuits=t sauces-gravy-pkle=t tissues-paper prd=t 895
+biscuits=t sauces-gravy-pkle=t soft drinks=t 696
+biscuits=t sauces-gravy-pkle=t cheese=t 766
+biscuits=t sauces-gravy-pkle=t milk-cream=t 967
+biscuits=t sauces-gravy-pkle=t margarine=t 877
+biscuits=t sauces-gravy-pkle=t fruit=t 1011
+biscuits=t sauces-gravy-pkle=t vegetables=t 1022
+biscuits=t sauces-gravy-pkle=t total=high 864
+biscuits=t confectionary=t frozen foods=t 793
+biscuits=t confectionary=t party snack foods=t 757
+biscuits=t confectionary=t milk-cream=t 810
+biscuits=t confectionary=t margarine=t 695
+biscuits=t confectionary=t fruit=t 816
+biscuits=t confectionary=t vegetables=t 767
+biscuits=t frozen foods=t pet foods=t 893
+biscuits=t frozen foods=t laundry needs=t 773
+biscuits=t frozen foods=t party snack foods=t 1178
+biscuits=t frozen foods=t tissues-paper prd=t 1072
+biscuits=t frozen foods=t soft drinks=t 878
+biscuits=t frozen foods=t cheese=t 917
+biscuits=t frozen foods=t milk-cream=t 1255
+biscuits=t frozen foods=t margarine=t 1116
+biscuits=t frozen foods=t dairy foods=t 806
+biscuits=t frozen foods=t beef=t 824
+biscuits=t frozen foods=t fruit=t 1309
+biscuits=t frozen foods=t vegetables=t 1290
+biscuits=t frozen foods=t total=low 804
+biscuits=t frozen foods=t total=high 1006
+biscuits=t pet foods=t party snack foods=t 795
+biscuits=t pet foods=t tissues-paper prd=t 772
+biscuits=t pet foods=t milk-cream=t 841
+biscuits=t pet foods=t margarine=t 747
+biscuits=t pet foods=t fruit=t 874
+biscuits=t pet foods=t vegetables=t 873
+biscuits=t pet foods=t total=high 733
+biscuits=t laundry needs=t party snack foods=t 703
+biscuits=t laundry needs=t tissues-paper prd=t 710
+biscuits=t laundry needs=t milk-cream=t 709
+biscuits=t laundry needs=t margarine=t 696
+biscuits=t laundry needs=t fruit=t 723
+biscuits=t laundry needs=t vegetables=t 717
+biscuits=t party snack foods=t tissues-paper prd=t 963
+biscuits=t party snack foods=t soft drinks=t 820
+biscuits=t party snack foods=t cheese=t 824
+biscuits=t party snack foods=t milk-cream=t 1088
+biscuits=t party snack foods=t margarine=t 926
+biscuits=t party snack foods=t dairy foods=t 763
+biscuits=t party snack foods=t fruit=t 1151
+biscuits=t party snack foods=t vegetables=t 1109
+biscuits=t party snack foods=t total=low 700
+biscuits=t party snack foods=t total=high 892
+biscuits=t tissues-paper prd=t soft drinks=t 714
+biscuits=t tissues-paper prd=t cheese=t 789
+biscuits=t tissues-paper prd=t milk-cream=t 997
+biscuits=t tissues-paper prd=t margarine=t 944
+biscuits=t tissues-paper prd=t fruit=t 1070
+biscuits=t tissues-paper prd=t vegetables=t 1041
+biscuits=t tissues-paper prd=t total=high 891
+biscuits=t soft drinks=t milk-cream=t 844
+biscuits=t soft drinks=t margarine=t 718
+biscuits=t soft drinks=t fruit=t 854
+biscuits=t soft drinks=t vegetables=t 806
+biscuits=t cheese=t milk-cream=t 861
+biscuits=t cheese=t margarine=t 832
+biscuits=t cheese=t fruit=t 906
+biscuits=t cheese=t vegetables=t 908
+biscuits=t cheese=t total=high 738
+biscuits=t milk-cream=t margarine=t 1035
+biscuits=t milk-cream=t dairy foods=t 776
+biscuits=t milk-cream=t beef=t 736
+biscuits=t milk-cream=t fruit=t 1299
+biscuits=t milk-cream=t vegetables=t 1236
+biscuits=t milk-cream=t total=low 860
+biscuits=t milk-cream=t total=high 907
+biscuits=t margarine=t fruit=t 1073
+biscuits=t margarine=t vegetables=t 1054
+biscuits=t margarine=t total=high 856
+biscuits=t dairy foods=t fruit=t 844
+biscuits=t dairy foods=t vegetables=t 797
+biscuits=t beef=t fruit=t 781
+biscuits=t beef=t vegetables=t 816
+biscuits=t fruit=t vegetables=t 1404
+biscuits=t fruit=t total=low 883
+biscuits=t fruit=t total=high 954
+biscuits=t vegetables=t total=low 814
+biscuits=t vegetables=t total=high 950
+canned fruit=t fruit=t vegetables=t 744
+canned vegetables=t sauces-gravy-pkle=t frozen foods=t 736
+canned vegetables=t sauces-gravy-pkle=t fruit=t 716
+canned vegetables=t sauces-gravy-pkle=t vegetables=t 752
+canned vegetables=t frozen foods=t party snack foods=t 712
+canned vegetables=t frozen foods=t tissues-paper prd=t 716
+canned vegetables=t frozen foods=t milk-cream=t 770
+canned vegetables=t frozen foods=t margarine=t 744
+canned vegetables=t frozen foods=t fruit=t 811
+canned vegetables=t frozen foods=t vegetables=t 843
+canned vegetables=t tissues-paper prd=t fruit=t 713
+canned vegetables=t tissues-paper prd=t vegetables=t 727
+canned vegetables=t milk-cream=t fruit=t 807
+canned vegetables=t milk-cream=t vegetables=t 808
+canned vegetables=t margarine=t fruit=t 715
+canned vegetables=t margarine=t vegetables=t 738
+canned vegetables=t fruit=t vegetables=t 918
+breakfast food=t sauces-gravy-pkle=t frozen foods=t 766
+breakfast food=t sauces-gravy-pkle=t milk-cream=t 697
+breakfast food=t sauces-gravy-pkle=t fruit=t 744
+breakfast food=t sauces-gravy-pkle=t vegetables=t 750
+breakfast food=t frozen foods=t party snack foods=t 812
+breakfast food=t frozen foods=t tissues-paper prd=t 795
+breakfast food=t frozen foods=t milk-cream=t 853
+breakfast food=t frozen foods=t margarine=t 798
+breakfast food=t frozen foods=t fruit=t 898
+breakfast food=t frozen foods=t vegetables=t 913
+breakfast food=t frozen foods=t total=high 735
+breakfast food=t party snack foods=t tissues-paper prd=t 705
+breakfast food=t party snack foods=t milk-cream=t 749
+breakfast food=t party snack foods=t fruit=t 793
+breakfast food=t party snack foods=t vegetables=t 770
+breakfast food=t tissues-paper prd=t milk-cream=t 743
+breakfast food=t tissues-paper prd=t margarine=t 716
+breakfast food=t tissues-paper prd=t fruit=t 797
+breakfast food=t tissues-paper prd=t vegetables=t 790
+breakfast food=t milk-cream=t margarine=t 763
+breakfast food=t milk-cream=t fruit=t 940
+breakfast food=t milk-cream=t vegetables=t 909
+breakfast food=t margarine=t fruit=t 779
+breakfast food=t margarine=t vegetables=t 785
+breakfast food=t fruit=t vegetables=t 1024
+breakfast food=t fruit=t total=high 730
+breakfast food=t vegetables=t total=high 729
+sauces-gravy-pkle=t frozen foods=t pet foods=t 770
+sauces-gravy-pkle=t frozen foods=t party snack foods=t 987
+sauces-gravy-pkle=t frozen foods=t tissues-paper prd=t 933
+sauces-gravy-pkle=t frozen foods=t soft drinks=t 734
+sauces-gravy-pkle=t frozen foods=t cheese=t 771
+sauces-gravy-pkle=t frozen foods=t milk-cream=t 1030
+sauces-gravy-pkle=t frozen foods=t margarine=t 911
+sauces-gravy-pkle=t frozen foods=t beef=t 719
+sauces-gravy-pkle=t frozen foods=t fruit=t 1049
+sauces-gravy-pkle=t frozen foods=t vegetables=t 1103
+sauces-gravy-pkle=t frozen foods=t total=high 904
+sauces-gravy-pkle=t pet foods=t tissues-paper prd=t 711
+sauces-gravy-pkle=t pet foods=t milk-cream=t 738
+sauces-gravy-pkle=t pet foods=t fruit=t 735
+sauces-gravy-pkle=t pet foods=t vegetables=t 782
+sauces-gravy-pkle=t party snack foods=t tissues-paper prd=t 839
+sauces-gravy-pkle=t party snack foods=t cheese=t 719
+sauces-gravy-pkle=t party snack foods=t milk-cream=t 903
+sauces-gravy-pkle=t party snack foods=t margarine=t 782
+sauces-gravy-pkle=t party snack foods=t fruit=t 922
+sauces-gravy-pkle=t party snack foods=t vegetables=t 943
+sauces-gravy-pkle=t party snack foods=t total=high 815
+sauces-gravy-pkle=t tissues-paper prd=t cheese=t 707
+sauces-gravy-pkle=t tissues-paper prd=t milk-cream=t 883
+sauces-gravy-pkle=t tissues-paper prd=t margarine=t 817
+sauces-gravy-pkle=t tissues-paper prd=t fruit=t 916
+sauces-gravy-pkle=t tissues-paper prd=t vegetables=t 937
+sauces-gravy-pkle=t tissues-paper prd=t total=high 830
+sauces-gravy-pkle=t soft drinks=t fruit=t 697
+sauces-gravy-pkle=t soft drinks=t vegetables=t 706
+sauces-gravy-pkle=t cheese=t milk-cream=t 762
+sauces-gravy-pkle=t cheese=t margarine=t 730
+sauces-gravy-pkle=t cheese=t fruit=t 765
+sauces-gravy-pkle=t cheese=t vegetables=t 807
+sauces-gravy-pkle=t milk-cream=t margarine=t 889
+sauces-gravy-pkle=t milk-cream=t fruit=t 1071
+sauces-gravy-pkle=t milk-cream=t vegetables=t 1095
+sauces-gravy-pkle=t milk-cream=t total=high 822
+sauces-gravy-pkle=t margarine=t fruit=t 856
+sauces-gravy-pkle=t margarine=t vegetables=t 926
+sauces-gravy-pkle=t margarine=t total=high 767
+sauces-gravy-pkle=t beef=t vegetables=t 728
+sauces-gravy-pkle=t fruit=t vegetables=t 1187
+sauces-gravy-pkle=t fruit=t total=high 848
+sauces-gravy-pkle=t vegetables=t total=high 883
+confectionary=t frozen foods=t party snack foods=t 728
+confectionary=t frozen foods=t milk-cream=t 772
+confectionary=t frozen foods=t fruit=t 782
+confectionary=t frozen foods=t vegetables=t 764
+confectionary=t party snack foods=t milk-cream=t 721
+confectionary=t party snack foods=t fruit=t 716
+confectionary=t milk-cream=t fruit=t 823
+confectionary=t milk-cream=t vegetables=t 789
+confectionary=t fruit=t vegetables=t 848
+frozen foods=t pet foods=t party snack foods=t 795
+frozen foods=t pet foods=t tissues-paper prd=t 798
+frozen foods=t pet foods=t milk-cream=t 887
+frozen foods=t pet foods=t margarine=t 757
+frozen foods=t pet foods=t fruit=t 909
+frozen foods=t pet foods=t vegetables=t 938
+frozen foods=t pet foods=t total=high 764
+frozen foods=t laundry needs=t tissues-paper prd=t 728
+frozen foods=t laundry needs=t milk-cream=t 743
+frozen foods=t laundry needs=t margarine=t 703
+frozen foods=t laundry needs=t fruit=t 757
+frozen foods=t laundry needs=t vegetables=t 768
+frozen foods=t party snack foods=t tissues-paper prd=t 967
+frozen foods=t party snack foods=t soft drinks=t 826
+frozen foods=t party snack foods=t cheese=t 802
+frozen foods=t party snack foods=t milk-cream=t 1075
+frozen foods=t party snack foods=t margarine=t 919
+frozen foods=t party snack foods=t dairy foods=t 738
+frozen foods=t party snack foods=t beef=t 715
+frozen foods=t party snack foods=t fruit=t 1115
+frozen foods=t party snack foods=t vegetables=t 1109
+frozen foods=t party snack foods=t total=high 904
+frozen foods=t tissues-paper prd=t soft drinks=t 759
+frozen foods=t tissues-paper prd=t cheese=t 798
+frozen foods=t tissues-paper prd=t milk-cream=t 1047
+frozen foods=t tissues-paper prd=t margarine=t 962
+frozen foods=t tissues-paper prd=t beef=t 728
+frozen foods=t tissues-paper prd=t fruit=t 1093
+frozen foods=t tissues-paper prd=t vegetables=t 1102
+frozen foods=t tissues-paper prd=t total=high 912
+frozen foods=t soft drinks=t milk-cream=t 878
+frozen foods=t soft drinks=t margarine=t 729
+frozen foods=t soft drinks=t fruit=t 892
+frozen foods=t soft drinks=t vegetables=t 870
+frozen foods=t soft drinks=t total=high 701
+frozen foods=t cheese=t milk-cream=t 867
+frozen foods=t cheese=t margarine=t 828
+frozen foods=t cheese=t fruit=t 889
+frozen foods=t cheese=t vegetables=t 907
+frozen foods=t cheese=t total=high 745
+frozen foods=t milk-cream=t margarine=t 1051
+frozen foods=t milk-cream=t dairy foods=t 774
+frozen foods=t milk-cream=t beef=t 840
+frozen foods=t milk-cream=t fruit=t 1322
+frozen foods=t milk-cream=t vegetables=t 1319
+frozen foods=t milk-cream=t total=low 885
+frozen foods=t milk-cream=t total=high 941
+frozen foods=t margarine=t beef=t 742
+frozen foods=t margarine=t fruit=t 1058
+frozen foods=t margarine=t vegetables=t 1097
+frozen foods=t margarine=t total=high 870
+frozen foods=t dairy foods=t fruit=t 831
+frozen foods=t dairy foods=t vegetables=t 817
+frozen foods=t beef=t fruit=t 842
+frozen foods=t beef=t vegetables=t 921
+frozen foods=t beef=t total=high 701
+frozen foods=t fruit=t vegetables=t 1451
+frozen foods=t fruit=t total=low 892
+frozen foods=t fruit=t total=high 969
+frozen foods=t vegetables=t total=low 883
+frozen foods=t vegetables=t total=high 999
+jams-spreads=t fruit=t vegetables=t 699
+pet foods=t party snack foods=t tissues-paper prd=t 718
+pet foods=t party snack foods=t milk-cream=t 766
+pet foods=t party snack foods=t fruit=t 787
+pet foods=t party snack foods=t vegetables=t 776
+pet foods=t tissues-paper prd=t milk-cream=t 785
+pet foods=t tissues-paper prd=t margarine=t 722
+pet foods=t tissues-paper prd=t fruit=t 805
+pet foods=t tissues-paper prd=t vegetables=t 828
+pet foods=t tissues-paper prd=t total=high 710
+pet foods=t milk-cream=t margarine=t 761
+pet foods=t milk-cream=t fruit=t 945
+pet foods=t milk-cream=t vegetables=t 954
+pet foods=t milk-cream=t total=high 731
+pet foods=t margarine=t fruit=t 759
+pet foods=t margarine=t vegetables=t 803
+pet foods=t fruit=t vegetables=t 1038
+pet foods=t fruit=t total=high 738
+pet foods=t vegetables=t total=high 761
+laundry needs=t tissues-paper prd=t milk-cream=t 705
+laundry needs=t tissues-paper prd=t margarine=t 701
+laundry needs=t tissues-paper prd=t fruit=t 728
+laundry needs=t tissues-paper prd=t vegetables=t 736
+laundry needs=t milk-cream=t fruit=t 775
+laundry needs=t milk-cream=t vegetables=t 754
+laundry needs=t margarine=t vegetables=t 712
+laundry needs=t fruit=t vegetables=t 841
+party snack foods=t tissues-paper prd=t cheese=t 712
+party snack foods=t tissues-paper prd=t milk-cream=t 880
+party snack foods=t tissues-paper prd=t margarine=t 811
+party snack foods=t tissues-paper prd=t fruit=t 933
+party snack foods=t tissues-paper prd=t vegetables=t 929
+party snack foods=t tissues-paper prd=t total=high 799
+party snack foods=t soft drinks=t milk-cream=t 788
+party snack foods=t soft drinks=t fruit=t 802
+party snack foods=t soft drinks=t vegetables=t 763
+party snack foods=t cheese=t milk-cream=t 765
+party snack foods=t cheese=t margarine=t 713
+party snack foods=t cheese=t fruit=t 802
+party snack foods=t cheese=t vegetables=t 799
+party snack foods=t milk-cream=t margarine=t 844
+party snack foods=t milk-cream=t dairy foods=t 702
+party snack foods=t milk-cream=t fruit=t 1115
+party snack foods=t milk-cream=t vegetables=t 1076
+party snack foods=t milk-cream=t total=low 724
+party snack foods=t milk-cream=t total=high 817
+party snack foods=t margarine=t fruit=t 868
+party snack foods=t margarine=t vegetables=t 879
+party snack foods=t margarine=t total=high 742
+party snack foods=t dairy foods=t fruit=t 766
+party snack foods=t dairy foods=t vegetables=t 743
+party snack foods=t fruit=t vegetables=t 1210
+party snack foods=t fruit=t total=low 738
+party snack foods=t fruit=t total=high 854
+party snack foods=t vegetables=t total=low 706
+party snack foods=t vegetables=t total=high 853
+tissues-paper prd=t soft drinks=t milk-cream=t 720
+tissues-paper prd=t soft drinks=t fruit=t 714
+tissues-paper prd=t soft drinks=t vegetables=t 704
+tissues-paper prd=t cheese=t milk-cream=t 767
+tissues-paper prd=t cheese=t margarine=t 760
+tissues-paper prd=t cheese=t fruit=t 810
+tissues-paper prd=t cheese=t vegetables=t 819
+tissues-paper prd=t cheese=t total=high 702
+tissues-paper prd=t milk-cream=t margarine=t 925
+tissues-paper prd=t milk-cream=t fruit=t 1125
+tissues-paper prd=t milk-cream=t vegetables=t 1099
+tissues-paper prd=t milk-cream=t total=high 847
+tissues-paper prd=t margarine=t fruit=t 950
+tissues-paper prd=t margarine=t vegetables=t 970
+tissues-paper prd=t margarine=t total=high 816
+tissues-paper prd=t beef=t fruit=t 716
+tissues-paper prd=t beef=t vegetables=t 762
+tissues-paper prd=t fruit=t vegetables=t 1224
+tissues-paper prd=t fruit=t total=high 878
+tissues-paper prd=t vegetables=t total=high 907
+wrapping=t fruit=t vegetables=t 736
+soft drinks=t milk-cream=t margarine=t 697
+soft drinks=t milk-cream=t fruit=t 895
+soft drinks=t milk-cream=t vegetables=t 868
+soft drinks=t fruit=t vegetables=t 942
+cheese=t milk-cream=t margarine=t 794
+cheese=t milk-cream=t fruit=t 946
+cheese=t milk-cream=t vegetables=t 955
+cheese=t milk-cream=t total=high 696
+cheese=t margarine=t fruit=t 823
+cheese=t margarine=t vegetables=t 852
+cheese=t margarine=t total=high 696
+cheese=t fruit=t vegetables=t 1040
+cheese=t fruit=t total=high 730
+cheese=t vegetables=t total=high 757
+milk-cream=t margarine=t fruit=t 1097
+milk-cream=t margarine=t vegetables=t 1111
+milk-cream=t margarine=t total=low 740
+milk-cream=t margarine=t total=high 809
+milk-cream=t dairy foods=t fruit=t 861
+milk-cream=t dairy foods=t vegetables=t 838
+milk-cream=t beef=t fruit=t 839
+milk-cream=t beef=t vegetables=t 914
+milk-cream=t fruit=t vegetables=t 1571
+milk-cream=t fruit=t stationary=t 706
+milk-cream=t fruit=t total=low 1087
+milk-cream=t fruit=t total=high 951
+milk-cream=t vegetables=t total=low 1072
+milk-cream=t vegetables=t total=high 953
+margarine=t dairy foods=t vegetables=t 695
+margarine=t beef=t fruit=t 694
+margarine=t beef=t vegetables=t 756
+margarine=t fruit=t vegetables=t 1215
+margarine=t fruit=t total=low 720
+margarine=t fruit=t total=high 818
+margarine=t vegetables=t total=low 725
+margarine=t vegetables=t total=high 862
+dairy foods=t fruit=t vegetables=t 947
+beef=t fruit=t vegetables=t 986
+beef=t vegetables=t total=high 703
+fruit=t vegetables=t stationary=t 757
+fruit=t vegetables=t total=low 1157
+fruit=t vegetables=t total=high 1050
+
+Size of set of large itemsets L(4): 617
+
+Large Itemsets L(4):
+bread and cake=t baking needs=t juice-sat-cord-ms=t biscuits=t 916
+bread and cake=t baking needs=t juice-sat-cord-ms=t breakfast food=t 704
+bread and cake=t baking needs=t juice-sat-cord-ms=t sauces-gravy-pkle=t 771
+bread and cake=t baking needs=t juice-sat-cord-ms=t frozen foods=t 942
+bread and cake=t baking needs=t juice-sat-cord-ms=t party snack foods=t 855
+bread and cake=t baking needs=t juice-sat-cord-ms=t tissues-paper prd=t 820
+bread and cake=t baking needs=t juice-sat-cord-ms=t cheese=t 695
+bread and cake=t baking needs=t juice-sat-cord-ms=t milk-cream=t 935
+bread and cake=t baking needs=t juice-sat-cord-ms=t margarine=t 846
+bread and cake=t baking needs=t juice-sat-cord-ms=t fruit=t 944
+bread and cake=t baking needs=t juice-sat-cord-ms=t vegetables=t 946
+bread and cake=t baking needs=t juice-sat-cord-ms=t total=high 763
+bread and cake=t baking needs=t biscuits=t canned vegetables=t 698
+bread and cake=t baking needs=t biscuits=t breakfast food=t 784
+bread and cake=t baking needs=t biscuits=t sauces-gravy-pkle=t 862
+bread and cake=t baking needs=t biscuits=t frozen foods=t 1113
+bread and cake=t baking needs=t biscuits=t pet foods=t 737
+bread and cake=t baking needs=t biscuits=t party snack foods=t 948
+bread and cake=t baking needs=t biscuits=t tissues-paper prd=t 915
+bread and cake=t baking needs=t biscuits=t cheese=t 768
+bread and cake=t baking needs=t biscuits=t milk-cream=t 1061
+bread and cake=t baking needs=t biscuits=t margarine=t 957
+bread and cake=t baking needs=t biscuits=t fruit=t 1095
+bread and cake=t baking needs=t biscuits=t vegetables=t 1082
+bread and cake=t baking needs=t biscuits=t total=high 878
+bread and cake=t baking needs=t canned vegetables=t frozen foods=t 703
+bread and cake=t baking needs=t canned vegetables=t fruit=t 709
+bread and cake=t baking needs=t canned vegetables=t vegetables=t 735
+bread and cake=t baking needs=t breakfast food=t frozen foods=t 793
+bread and cake=t baking needs=t breakfast food=t tissues-paper prd=t 705
+bread and cake=t baking needs=t breakfast food=t milk-cream=t 773
+bread and cake=t baking needs=t breakfast food=t margarine=t 726
+bread and cake=t baking needs=t breakfast food=t fruit=t 802
+bread and cake=t baking needs=t breakfast food=t vegetables=t 796
+bread and cake=t baking needs=t sauces-gravy-pkle=t frozen foods=t 901
+bread and cake=t baking needs=t sauces-gravy-pkle=t party snack foods=t 797
+bread and cake=t baking needs=t sauces-gravy-pkle=t tissues-paper prd=t 806
+bread and cake=t baking needs=t sauces-gravy-pkle=t milk-cream=t 885
+bread and cake=t baking needs=t sauces-gravy-pkle=t margarine=t 798
+bread and cake=t baking needs=t sauces-gravy-pkle=t fruit=t 884
+bread and cake=t baking needs=t sauces-gravy-pkle=t vegetables=t 933
+bread and cake=t baking needs=t sauces-gravy-pkle=t total=high 792
+bread and cake=t baking needs=t frozen foods=t pet foods=t 753
+bread and cake=t baking needs=t frozen foods=t party snack foods=t 931
+bread and cake=t baking needs=t frozen foods=t tissues-paper prd=t 943
+bread and cake=t baking needs=t frozen foods=t soft drinks=t 710
+bread and cake=t baking needs=t frozen foods=t cheese=t 770
+bread and cake=t baking needs=t frozen foods=t milk-cream=t 1087
+bread and cake=t baking needs=t frozen foods=t margarine=t 973
+bread and cake=t baking needs=t frozen foods=t beef=t 719
+bread and cake=t baking needs=t frozen foods=t fruit=t 1097
+bread and cake=t baking needs=t frozen foods=t vegetables=t 1116
+bread and cake=t baking needs=t frozen foods=t total=high 901
+bread and cake=t baking needs=t pet foods=t tissues-paper prd=t 705
+bread and cake=t baking needs=t pet foods=t milk-cream=t 785
+bread and cake=t baking needs=t pet foods=t margarine=t 703
+bread and cake=t baking needs=t pet foods=t fruit=t 778
+bread and cake=t baking needs=t pet foods=t vegetables=t 807
+bread and cake=t baking needs=t party snack foods=t tissues-paper prd=t 792
+bread and cake=t baking needs=t party snack foods=t milk-cream=t 899
+bread and cake=t baking needs=t party snack foods=t margarine=t 784
+bread and cake=t baking needs=t party snack foods=t fruit=t 922
+bread and cake=t baking needs=t party snack foods=t vegetables=t 918
+bread and cake=t baking needs=t party snack foods=t total=high 787
+bread and cake=t baking needs=t tissues-paper prd=t cheese=t 705
+bread and cake=t baking needs=t tissues-paper prd=t milk-cream=t 951
+bread and cake=t baking needs=t tissues-paper prd=t margarine=t 877
+bread and cake=t baking needs=t tissues-paper prd=t fruit=t 954
+bread and cake=t baking needs=t tissues-paper prd=t vegetables=t 970
+bread and cake=t baking needs=t tissues-paper prd=t total=high 822
+bread and cake=t baking needs=t soft drinks=t milk-cream=t 717
+bread and cake=t baking needs=t soft drinks=t fruit=t 701
+bread and cake=t baking needs=t cheese=t milk-cream=t 784
+bread and cake=t baking needs=t cheese=t margarine=t 740
+bread and cake=t baking needs=t cheese=t fruit=t 804
+bread and cake=t baking needs=t cheese=t vegetables=t 835
+bread and cake=t baking needs=t milk-cream=t margarine=t 987
+bread and cake=t baking needs=t milk-cream=t beef=t 712
+bread and cake=t baking needs=t milk-cream=t fruit=t 1161
+bread and cake=t baking needs=t milk-cream=t vegetables=t 1169
+bread and cake=t baking needs=t milk-cream=t total=low 728
+bread and cake=t baking needs=t milk-cream=t total=high 852
+bread and cake=t baking needs=t margarine=t fruit=t 981
+bread and cake=t baking needs=t margarine=t vegetables=t 1013
+bread and cake=t baking needs=t margarine=t total=high 790
+bread and cake=t baking needs=t dairy foods=t fruit=t 702
+bread and cake=t baking needs=t dairy foods=t vegetables=t 699
+bread and cake=t baking needs=t beef=t fruit=t 720
+bread and cake=t baking needs=t beef=t vegetables=t 778
+bread and cake=t baking needs=t fruit=t vegetables=t 1255
+bread and cake=t baking needs=t fruit=t total=low 695
+bread and cake=t baking needs=t fruit=t total=high 869
+bread and cake=t baking needs=t vegetables=t total=low 698
+bread and cake=t baking needs=t vegetables=t total=high 888
+bread and cake=t juice-sat-cord-ms=t biscuits=t sauces-gravy-pkle=t 750
+bread and cake=t juice-sat-cord-ms=t biscuits=t frozen foods=t 959
+bread and cake=t juice-sat-cord-ms=t biscuits=t party snack foods=t 897
+bread and cake=t juice-sat-cord-ms=t biscuits=t tissues-paper prd=t 795
+bread and cake=t juice-sat-cord-ms=t biscuits=t milk-cream=t 903
+bread and cake=t juice-sat-cord-ms=t biscuits=t margarine=t 807
+bread and cake=t juice-sat-cord-ms=t biscuits=t fruit=t 960
+bread and cake=t juice-sat-cord-ms=t biscuits=t vegetables=t 921
+bread and cake=t juice-sat-cord-ms=t biscuits=t total=high 760
+bread and cake=t juice-sat-cord-ms=t breakfast food=t fruit=t 704
+bread and cake=t juice-sat-cord-ms=t sauces-gravy-pkle=t frozen foods=t 779
+bread and cake=t juice-sat-cord-ms=t sauces-gravy-pkle=t party snack foods=t 732
+bread and cake=t juice-sat-cord-ms=t sauces-gravy-pkle=t milk-cream=t 755
+bread and cake=t juice-sat-cord-ms=t sauces-gravy-pkle=t fruit=t 784
+bread and cake=t juice-sat-cord-ms=t sauces-gravy-pkle=t vegetables=t 782
+bread and cake=t juice-sat-cord-ms=t frozen foods=t party snack foods=t 869
+bread and cake=t juice-sat-cord-ms=t frozen foods=t tissues-paper prd=t 803
+bread and cake=t juice-sat-cord-ms=t frozen foods=t milk-cream=t 925
+bread and cake=t juice-sat-cord-ms=t frozen foods=t margarine=t 803
+bread and cake=t juice-sat-cord-ms=t frozen foods=t fruit=t 971
+bread and cake=t juice-sat-cord-ms=t frozen foods=t vegetables=t 958
+bread and cake=t juice-sat-cord-ms=t frozen foods=t total=high 777
+bread and cake=t juice-sat-cord-ms=t party snack foods=t tissues-paper prd=t 741
+bread and cake=t juice-sat-cord-ms=t party snack foods=t milk-cream=t 832
+bread and cake=t juice-sat-cord-ms=t party snack foods=t margarine=t 711
+bread and cake=t juice-sat-cord-ms=t party snack foods=t fruit=t 883
+bread and cake=t juice-sat-cord-ms=t party snack foods=t vegetables=t 844
+bread and cake=t juice-sat-cord-ms=t party snack foods=t total=high 720
+bread and cake=t juice-sat-cord-ms=t tissues-paper prd=t milk-cream=t 796
+bread and cake=t juice-sat-cord-ms=t tissues-paper prd=t margarine=t 733
+bread and cake=t juice-sat-cord-ms=t tissues-paper prd=t fruit=t 824
+bread and cake=t juice-sat-cord-ms=t tissues-paper prd=t vegetables=t 813
+bread and cake=t juice-sat-cord-ms=t tissues-paper prd=t total=high 707
+bread and cake=t juice-sat-cord-ms=t cheese=t fruit=t 715
+bread and cake=t juice-sat-cord-ms=t cheese=t vegetables=t 711
+bread and cake=t juice-sat-cord-ms=t milk-cream=t margarine=t 790
+bread and cake=t juice-sat-cord-ms=t milk-cream=t fruit=t 985
+bread and cake=t juice-sat-cord-ms=t milk-cream=t vegetables=t 963
+bread and cake=t juice-sat-cord-ms=t milk-cream=t total=high 728
+bread and cake=t juice-sat-cord-ms=t margarine=t fruit=t 815
+bread and cake=t juice-sat-cord-ms=t margarine=t vegetables=t 817
+bread and cake=t juice-sat-cord-ms=t fruit=t vegetables=t 1067
+bread and cake=t juice-sat-cord-ms=t fruit=t total=high 765
+bread and cake=t juice-sat-cord-ms=t vegetables=t total=high 758
+bread and cake=t biscuits=t canned vegetables=t frozen foods=t 734
+bread and cake=t biscuits=t canned vegetables=t fruit=t 721
+bread and cake=t biscuits=t canned vegetables=t vegetables=t 715
+bread and cake=t biscuits=t breakfast food=t frozen foods=t 791
+bread and cake=t biscuits=t breakfast food=t milk-cream=t 731
+bread and cake=t biscuits=t breakfast food=t fruit=t 783
+bread and cake=t biscuits=t breakfast food=t vegetables=t 766
+bread and cake=t biscuits=t sauces-gravy-pkle=t frozen foods=t 906
+bread and cake=t biscuits=t sauces-gravy-pkle=t party snack foods=t 809
+bread and cake=t biscuits=t sauces-gravy-pkle=t tissues-paper prd=t 746
+bread and cake=t biscuits=t sauces-gravy-pkle=t milk-cream=t 823
+bread and cake=t biscuits=t sauces-gravy-pkle=t margarine=t 739
+bread and cake=t biscuits=t sauces-gravy-pkle=t fruit=t 860
+bread and cake=t biscuits=t sauces-gravy-pkle=t vegetables=t 879
+bread and cake=t biscuits=t sauces-gravy-pkle=t total=high 757
+bread and cake=t biscuits=t confectionary=t fruit=t 696
+bread and cake=t biscuits=t frozen foods=t pet foods=t 772
+bread and cake=t biscuits=t frozen foods=t party snack foods=t 995
+bread and cake=t biscuits=t frozen foods=t tissues-paper prd=t 920
+bread and cake=t biscuits=t frozen foods=t soft drinks=t 743
+bread and cake=t biscuits=t frozen foods=t cheese=t 791
+bread and cake=t biscuits=t frozen foods=t milk-cream=t 1089
+bread and cake=t biscuits=t frozen foods=t margarine=t 952
+bread and cake=t biscuits=t frozen foods=t beef=t 719
+bread and cake=t biscuits=t frozen foods=t fruit=t 1143
+bread and cake=t biscuits=t frozen foods=t vegetables=t 1120
+bread and cake=t biscuits=t frozen foods=t total=high 900
+bread and cake=t biscuits=t pet foods=t milk-cream=t 734
+bread and cake=t biscuits=t pet foods=t fruit=t 765
+bread and cake=t biscuits=t pet foods=t vegetables=t 767
+bread and cake=t biscuits=t party snack foods=t tissues-paper prd=t 810
+bread and cake=t biscuits=t party snack foods=t cheese=t 703
+bread and cake=t biscuits=t party snack foods=t milk-cream=t 932
+bread and cake=t biscuits=t party snack foods=t margarine=t 789
+bread and cake=t biscuits=t party snack foods=t fruit=t 988
+bread and cake=t biscuits=t party snack foods=t vegetables=t 951
+bread and cake=t biscuits=t party snack foods=t total=high 795
+bread and cake=t biscuits=t tissues-paper prd=t milk-cream=t 870
+bread and cake=t biscuits=t tissues-paper prd=t margarine=t 804
+bread and cake=t biscuits=t tissues-paper prd=t fruit=t 918
+bread and cake=t biscuits=t tissues-paper prd=t vegetables=t 903
+bread and cake=t biscuits=t tissues-paper prd=t total=high 788
+bread and cake=t biscuits=t soft drinks=t milk-cream=t 721
+bread and cake=t biscuits=t soft drinks=t fruit=t 728
+bread and cake=t biscuits=t cheese=t milk-cream=t 751
+bread and cake=t biscuits=t cheese=t margarine=t 707
+bread and cake=t biscuits=t cheese=t fruit=t 797
+bread and cake=t biscuits=t cheese=t vegetables=t 787
+bread and cake=t biscuits=t milk-cream=t margarine=t 903
+bread and cake=t biscuits=t milk-cream=t fruit=t 1122
+bread and cake=t biscuits=t milk-cream=t vegetables=t 1075
+bread and cake=t biscuits=t milk-cream=t total=high 820
+bread and cake=t biscuits=t margarine=t fruit=t 938
+bread and cake=t biscuits=t margarine=t vegetables=t 925
+bread and cake=t biscuits=t margarine=t total=high 762
+bread and cake=t biscuits=t dairy foods=t fruit=t 716
+bread and cake=t biscuits=t beef=t vegetables=t 717
+bread and cake=t biscuits=t fruit=t vegetables=t 1216
+bread and cake=t biscuits=t fruit=t total=high 866
+bread and cake=t biscuits=t vegetables=t total=high 858
+bread and cake=t canned vegetables=t frozen foods=t fruit=t 708
+bread and cake=t canned vegetables=t frozen foods=t vegetables=t 727
+bread and cake=t canned vegetables=t milk-cream=t fruit=t 699
+bread and cake=t canned vegetables=t milk-cream=t vegetables=t 696
+bread and cake=t canned vegetables=t fruit=t vegetables=t 791
+bread and cake=t breakfast food=t frozen foods=t milk-cream=t 723
+bread and cake=t breakfast food=t frozen foods=t fruit=t 763
+bread and cake=t breakfast food=t frozen foods=t vegetables=t 770
+bread and cake=t breakfast food=t milk-cream=t fruit=t 796
+bread and cake=t breakfast food=t milk-cream=t vegetables=t 775
+bread and cake=t breakfast food=t fruit=t vegetables=t 865
+bread and cake=t sauces-gravy-pkle=t frozen foods=t party snack foods=t 822
+bread and cake=t sauces-gravy-pkle=t frozen foods=t tissues-paper prd=t 780
+bread and cake=t sauces-gravy-pkle=t frozen foods=t milk-cream=t 867
+bread and cake=t sauces-gravy-pkle=t frozen foods=t margarine=t 762
+bread and cake=t sauces-gravy-pkle=t frozen foods=t fruit=t 901
+bread and cake=t sauces-gravy-pkle=t frozen foods=t vegetables=t 928
+bread and cake=t sauces-gravy-pkle=t frozen foods=t total=high 791
+bread and cake=t sauces-gravy-pkle=t party snack foods=t tissues-paper prd=t 703
+bread and cake=t sauces-gravy-pkle=t party snack foods=t milk-cream=t 759
+bread and cake=t sauces-gravy-pkle=t party snack foods=t fruit=t 785
+bread and cake=t sauces-gravy-pkle=t party snack foods=t vegetables=t 789
+bread and cake=t sauces-gravy-pkle=t party snack foods=t total=high 708
+bread and cake=t sauces-gravy-pkle=t tissues-paper prd=t milk-cream=t 748
+bread and cake=t sauces-gravy-pkle=t tissues-paper prd=t fruit=t 774
+bread and cake=t sauces-gravy-pkle=t tissues-paper prd=t vegetables=t 791
+bread and cake=t sauces-gravy-pkle=t tissues-paper prd=t total=high 717
+bread and cake=t sauces-gravy-pkle=t milk-cream=t margarine=t 757
+bread and cake=t sauces-gravy-pkle=t milk-cream=t fruit=t 905
+bread and cake=t sauces-gravy-pkle=t milk-cream=t vegetables=t 917
+bread and cake=t sauces-gravy-pkle=t milk-cream=t total=high 724
+bread and cake=t sauces-gravy-pkle=t margarine=t fruit=t 739
+bread and cake=t sauces-gravy-pkle=t margarine=t vegetables=t 795
+bread and cake=t sauces-gravy-pkle=t fruit=t vegetables=t 1005
+bread and cake=t sauces-gravy-pkle=t fruit=t total=high 758
+bread and cake=t sauces-gravy-pkle=t vegetables=t total=high 781
+bread and cake=t confectionary=t milk-cream=t fruit=t 704
+bread and cake=t confectionary=t fruit=t vegetables=t 714
+bread and cake=t frozen foods=t pet foods=t milk-cream=t 765
+bread and cake=t frozen foods=t pet foods=t fruit=t 790
+bread and cake=t frozen foods=t pet foods=t vegetables=t 809
+bread and cake=t frozen foods=t party snack foods=t tissues-paper prd=t 811
+bread and cake=t frozen foods=t party snack foods=t milk-cream=t 915
+bread and cake=t frozen foods=t party snack foods=t margarine=t 769
+bread and cake=t frozen foods=t party snack foods=t fruit=t 960
+bread and cake=t frozen foods=t party snack foods=t vegetables=t 941
+bread and cake=t frozen foods=t party snack foods=t total=high 803
+bread and cake=t frozen foods=t tissues-paper prd=t milk-cream=t 904
+bread and cake=t frozen foods=t tissues-paper prd=t margarine=t 809
+bread and cake=t frozen foods=t tissues-paper prd=t fruit=t 939
+bread and cake=t frozen foods=t tissues-paper prd=t vegetables=t 944
+bread and cake=t frozen foods=t tissues-paper prd=t total=high 814
+bread and cake=t frozen foods=t soft drinks=t milk-cream=t 740
+bread and cake=t frozen foods=t soft drinks=t fruit=t 745
+bread and cake=t frozen foods=t soft drinks=t vegetables=t 725
+bread and cake=t frozen foods=t cheese=t milk-cream=t 741
+bread and cake=t frozen foods=t cheese=t margarine=t 695
+bread and cake=t frozen foods=t cheese=t fruit=t 785
+bread and cake=t frozen foods=t cheese=t vegetables=t 782
+bread and cake=t frozen foods=t milk-cream=t margarine=t 896
+bread and cake=t frozen foods=t milk-cream=t beef=t 725
+bread and cake=t frozen foods=t milk-cream=t fruit=t 1138
+bread and cake=t frozen foods=t milk-cream=t vegetables=t 1131
+bread and cake=t frozen foods=t milk-cream=t total=high 846
+bread and cake=t frozen foods=t margarine=t fruit=t 912
+bread and cake=t frozen foods=t margarine=t vegetables=t 932
+bread and cake=t frozen foods=t margarine=t total=high 770
+bread and cake=t frozen foods=t dairy foods=t fruit=t 711
+bread and cake=t frozen foods=t dairy foods=t vegetables=t 696
+bread and cake=t frozen foods=t beef=t fruit=t 725
+bread and cake=t frozen foods=t beef=t vegetables=t 789
+bread and cake=t frozen foods=t fruit=t vegetables=t 1242
+bread and cake=t frozen foods=t fruit=t total=high 877
+bread and cake=t frozen foods=t vegetables=t total=high 889
+bread and cake=t pet foods=t tissues-paper prd=t fruit=t 698
+bread and cake=t pet foods=t tissues-paper prd=t vegetables=t 711
+bread and cake=t pet foods=t milk-cream=t fruit=t 823
+bread and cake=t pet foods=t milk-cream=t vegetables=t 824
+bread and cake=t pet foods=t margarine=t vegetables=t 697
+bread and cake=t pet foods=t fruit=t vegetables=t 882
+bread and cake=t laundry needs=t fruit=t vegetables=t 721
+bread and cake=t party snack foods=t tissues-paper prd=t milk-cream=t 756
+bread and cake=t party snack foods=t tissues-paper prd=t fruit=t 800
+bread and cake=t party snack foods=t tissues-paper prd=t vegetables=t 791
+bread and cake=t party snack foods=t tissues-paper prd=t total=high 704
+bread and cake=t party snack foods=t cheese=t fruit=t 707
+bread and cake=t party snack foods=t milk-cream=t margarine=t 723
+bread and cake=t party snack foods=t milk-cream=t fruit=t 960
+bread and cake=t party snack foods=t milk-cream=t vegetables=t 910
+bread and cake=t party snack foods=t milk-cream=t total=high 729
+bread and cake=t party snack foods=t margarine=t fruit=t 752
+bread and cake=t party snack foods=t margarine=t vegetables=t 754
+bread and cake=t party snack foods=t fruit=t vegetables=t 1028
+bread and cake=t party snack foods=t fruit=t total=high 779
+bread and cake=t party snack foods=t vegetables=t total=high 761
+bread and cake=t tissues-paper prd=t cheese=t fruit=t 700
+bread and cake=t tissues-paper prd=t cheese=t vegetables=t 704
+bread and cake=t tissues-paper prd=t milk-cream=t margarine=t 796
+bread and cake=t tissues-paper prd=t milk-cream=t fruit=t 960
+bread and cake=t tissues-paper prd=t milk-cream=t vegetables=t 944
+bread and cake=t tissues-paper prd=t milk-cream=t total=high 754
+bread and cake=t tissues-paper prd=t margarine=t fruit=t 814
+bread and cake=t tissues-paper prd=t margarine=t vegetables=t 829
+bread and cake=t tissues-paper prd=t margarine=t total=high 713
+bread and cake=t tissues-paper prd=t fruit=t vegetables=t 1044
+bread and cake=t tissues-paper prd=t fruit=t total=high 792
+bread and cake=t tissues-paper prd=t vegetables=t total=high 809
+bread and cake=t soft drinks=t milk-cream=t fruit=t 758
+bread and cake=t soft drinks=t milk-cream=t vegetables=t 726
+bread and cake=t soft drinks=t fruit=t vegetables=t 782
+bread and cake=t cheese=t milk-cream=t fruit=t 818
+bread and cake=t cheese=t milk-cream=t vegetables=t 813
+bread and cake=t cheese=t margarine=t fruit=t 722
+bread and cake=t cheese=t margarine=t vegetables=t 732
+bread and cake=t cheese=t fruit=t vegetables=t 894
+bread and cake=t milk-cream=t margarine=t fruit=t 952
+bread and cake=t milk-cream=t margarine=t vegetables=t 958
+bread and cake=t milk-cream=t margarine=t total=high 724
+bread and cake=t milk-cream=t dairy foods=t fruit=t 726
+bread and cake=t milk-cream=t dairy foods=t vegetables=t 705
+bread and cake=t milk-cream=t beef=t fruit=t 732
+bread and cake=t milk-cream=t beef=t vegetables=t 786
+bread and cake=t milk-cream=t fruit=t vegetables=t 1311
+bread and cake=t milk-cream=t fruit=t total=low 832
+bread and cake=t milk-cream=t fruit=t total=high 852
+bread and cake=t milk-cream=t vegetables=t total=low 814
+bread and cake=t milk-cream=t vegetables=t total=high 844
+bread and cake=t margarine=t fruit=t vegetables=t 1047
+bread and cake=t margarine=t fruit=t total=high 737
+bread and cake=t margarine=t vegetables=t total=high 764
+bread and cake=t dairy foods=t fruit=t vegetables=t 791
+bread and cake=t beef=t fruit=t vegetables=t 846
+bread and cake=t fruit=t vegetables=t total=low 853
+bread and cake=t fruit=t vegetables=t total=high 938
+baking needs=t juice-sat-cord-ms=t biscuits=t frozen foods=t 861
+baking needs=t juice-sat-cord-ms=t biscuits=t party snack foods=t 779
+baking needs=t juice-sat-cord-ms=t biscuits=t tissues-paper prd=t 715
+baking needs=t juice-sat-cord-ms=t biscuits=t milk-cream=t 766
+baking needs=t juice-sat-cord-ms=t biscuits=t margarine=t 746
+baking needs=t juice-sat-cord-ms=t biscuits=t fruit=t 807
+baking needs=t juice-sat-cord-ms=t biscuits=t vegetables=t 797
+baking needs=t juice-sat-cord-ms=t biscuits=t total=high 696
+baking needs=t juice-sat-cord-ms=t sauces-gravy-pkle=t frozen foods=t 725
+baking needs=t juice-sat-cord-ms=t sauces-gravy-pkle=t vegetables=t 702
+baking needs=t juice-sat-cord-ms=t frozen foods=t party snack foods=t 789
+baking needs=t juice-sat-cord-ms=t frozen foods=t tissues-paper prd=t 745
+baking needs=t juice-sat-cord-ms=t frozen foods=t milk-cream=t 807
+baking needs=t juice-sat-cord-ms=t frozen foods=t margarine=t 775
+baking needs=t juice-sat-cord-ms=t frozen foods=t fruit=t 821
+baking needs=t juice-sat-cord-ms=t frozen foods=t vegetables=t 850
+baking needs=t juice-sat-cord-ms=t frozen foods=t total=high 725
+baking needs=t juice-sat-cord-ms=t party snack foods=t milk-cream=t 700
+baking needs=t juice-sat-cord-ms=t party snack foods=t fruit=t 722
+baking needs=t juice-sat-cord-ms=t party snack foods=t vegetables=t 741
+baking needs=t juice-sat-cord-ms=t tissues-paper prd=t margarine=t 696
+baking needs=t juice-sat-cord-ms=t tissues-paper prd=t fruit=t 710
+baking needs=t juice-sat-cord-ms=t tissues-paper prd=t vegetables=t 723
+baking needs=t juice-sat-cord-ms=t milk-cream=t margarine=t 709
+baking needs=t juice-sat-cord-ms=t milk-cream=t fruit=t 805
+baking needs=t juice-sat-cord-ms=t milk-cream=t vegetables=t 817
+baking needs=t juice-sat-cord-ms=t margarine=t fruit=t 719
+baking needs=t juice-sat-cord-ms=t margarine=t vegetables=t 744
+baking needs=t juice-sat-cord-ms=t fruit=t vegetables=t 890
+baking needs=t biscuits=t breakfast food=t frozen foods=t 740
+baking needs=t biscuits=t breakfast food=t fruit=t 700
+baking needs=t biscuits=t sauces-gravy-pkle=t frozen foods=t 828
+baking needs=t biscuits=t sauces-gravy-pkle=t party snack foods=t 730
+baking needs=t biscuits=t sauces-gravy-pkle=t tissues-paper prd=t 702
+baking needs=t biscuits=t sauces-gravy-pkle=t milk-cream=t 733
+baking needs=t biscuits=t sauces-gravy-pkle=t margarine=t 698
+baking needs=t biscuits=t sauces-gravy-pkle=t fruit=t 755
+baking needs=t biscuits=t sauces-gravy-pkle=t vegetables=t 774
+baking needs=t biscuits=t sauces-gravy-pkle=t total=high 715
+baking needs=t biscuits=t frozen foods=t party snack foods=t 870
+baking needs=t biscuits=t frozen foods=t tissues-paper prd=t 841
+baking needs=t biscuits=t frozen foods=t cheese=t 699
+baking needs=t biscuits=t frozen foods=t milk-cream=t 932
+baking needs=t biscuits=t frozen foods=t margarine=t 883
+baking needs=t biscuits=t frozen foods=t fruit=t 968
+baking needs=t biscuits=t frozen foods=t vegetables=t 969
+baking needs=t biscuits=t frozen foods=t total=high 825
+baking needs=t biscuits=t party snack foods=t tissues-paper prd=t 725
+baking needs=t biscuits=t party snack foods=t milk-cream=t 787
+baking needs=t biscuits=t party snack foods=t margarine=t 719
+baking needs=t biscuits=t party snack foods=t fruit=t 814
+baking needs=t biscuits=t party snack foods=t vegetables=t 815
+baking needs=t biscuits=t party snack foods=t total=high 721
+baking needs=t biscuits=t tissues-paper prd=t milk-cream=t 759
+baking needs=t biscuits=t tissues-paper prd=t margarine=t 749
+baking needs=t biscuits=t tissues-paper prd=t fruit=t 803
+baking needs=t biscuits=t tissues-paper prd=t vegetables=t 804
+baking needs=t biscuits=t tissues-paper prd=t total=high 732
+baking needs=t biscuits=t cheese=t vegetables=t 694
+baking needs=t biscuits=t milk-cream=t margarine=t 794
+baking needs=t biscuits=t milk-cream=t fruit=t 929
+baking needs=t biscuits=t milk-cream=t vegetables=t 909
+baking needs=t biscuits=t milk-cream=t total=high 737
+baking needs=t biscuits=t margarine=t fruit=t 829
+baking needs=t biscuits=t margarine=t vegetables=t 829
+baking needs=t biscuits=t margarine=t total=high 720
+baking needs=t biscuits=t fruit=t vegetables=t 1021
+baking needs=t biscuits=t fruit=t total=high 760
+baking needs=t biscuits=t vegetables=t total=high 772
+baking needs=t breakfast food=t frozen foods=t fruit=t 696
+baking needs=t breakfast food=t frozen foods=t vegetables=t 717
+baking needs=t breakfast food=t milk-cream=t fruit=t 701
+baking needs=t breakfast food=t fruit=t vegetables=t 770
+baking needs=t sauces-gravy-pkle=t frozen foods=t party snack foods=t 744
+baking needs=t sauces-gravy-pkle=t frozen foods=t tissues-paper prd=t 733
+baking needs=t sauces-gravy-pkle=t frozen foods=t milk-cream=t 759
+baking needs=t sauces-gravy-pkle=t frozen foods=t margarine=t 723
+baking needs=t sauces-gravy-pkle=t frozen foods=t fruit=t 769
+baking needs=t sauces-gravy-pkle=t frozen foods=t vegetables=t 820
+baking needs=t sauces-gravy-pkle=t frozen foods=t total=high 740
+baking needs=t sauces-gravy-pkle=t party snack foods=t vegetables=t 709
+baking needs=t sauces-gravy-pkle=t tissues-paper prd=t vegetables=t 725
+baking needs=t sauces-gravy-pkle=t milk-cream=t fruit=t 767
+baking needs=t sauces-gravy-pkle=t milk-cream=t vegetables=t 809
+baking needs=t sauces-gravy-pkle=t margarine=t vegetables=t 722
+baking needs=t sauces-gravy-pkle=t fruit=t vegetables=t 864
+baking needs=t sauces-gravy-pkle=t vegetables=t total=high 714
+baking needs=t frozen foods=t pet foods=t vegetables=t 698
+baking needs=t frozen foods=t party snack foods=t tissues-paper prd=t 725
+baking needs=t frozen foods=t party snack foods=t milk-cream=t 776
+baking needs=t frozen foods=t party snack foods=t margarine=t 711
+baking needs=t frozen foods=t party snack foods=t fruit=t 791
+baking needs=t frozen foods=t party snack foods=t vegetables=t 812
+baking needs=t frozen foods=t party snack foods=t total=high 734
+baking needs=t frozen foods=t tissues-paper prd=t milk-cream=t 794
+baking needs=t frozen foods=t tissues-paper prd=t margarine=t 773
+baking needs=t frozen foods=t tissues-paper prd=t fruit=t 816
+baking needs=t frozen foods=t tissues-paper prd=t vegetables=t 847
+baking needs=t frozen foods=t tissues-paper prd=t total=high 754
+baking needs=t frozen foods=t cheese=t vegetables=t 702
+baking needs=t frozen foods=t milk-cream=t margarine=t 822
+baking needs=t frozen foods=t milk-cream=t fruit=t 939
+baking needs=t frozen foods=t milk-cream=t vegetables=t 961
+baking needs=t frozen foods=t milk-cream=t total=high 762
+baking needs=t frozen foods=t margarine=t fruit=t 816
+baking needs=t frozen foods=t margarine=t vegetables=t 860
+baking needs=t frozen foods=t margarine=t total=high 730
+baking needs=t frozen foods=t fruit=t vegetables=t 1040
+baking needs=t frozen foods=t fruit=t total=high 770
+baking needs=t frozen foods=t vegetables=t total=high 807
+baking needs=t pet foods=t milk-cream=t vegetables=t 704
+baking needs=t pet foods=t fruit=t vegetables=t 746
+baking needs=t party snack foods=t tissues-paper prd=t vegetables=t 700
+baking needs=t party snack foods=t milk-cream=t fruit=t 771
+baking needs=t party snack foods=t milk-cream=t vegetables=t 771
+baking needs=t party snack foods=t fruit=t vegetables=t 855
+baking needs=t tissues-paper prd=t milk-cream=t margarine=t 731
+baking needs=t tissues-paper prd=t milk-cream=t fruit=t 826
+baking needs=t tissues-paper prd=t milk-cream=t vegetables=t 835
+baking needs=t tissues-paper prd=t milk-cream=t total=high 694
+baking needs=t tissues-paper prd=t margarine=t fruit=t 743
+baking needs=t tissues-paper prd=t margarine=t vegetables=t 774
+baking needs=t tissues-paper prd=t fruit=t vegetables=t 905
+baking needs=t tissues-paper prd=t fruit=t total=high 705
+baking needs=t tissues-paper prd=t vegetables=t total=high 740
+baking needs=t cheese=t milk-cream=t vegetables=t 717
+baking needs=t cheese=t fruit=t vegetables=t 772
+baking needs=t milk-cream=t margarine=t fruit=t 827
+baking needs=t milk-cream=t margarine=t vegetables=t 855
+baking needs=t milk-cream=t fruit=t vegetables=t 1097
+baking needs=t milk-cream=t fruit=t total=high 740
+baking needs=t milk-cream=t vegetables=t total=high 758
+baking needs=t margarine=t fruit=t vegetables=t 919
+baking needs=t margarine=t vegetables=t total=high 722
+baking needs=t beef=t fruit=t vegetables=t 720
+baking needs=t fruit=t vegetables=t total=high 831
+juice-sat-cord-ms=t biscuits=t sauces-gravy-pkle=t frozen foods=t 723
+juice-sat-cord-ms=t biscuits=t frozen foods=t party snack foods=t 820
+juice-sat-cord-ms=t biscuits=t frozen foods=t tissues-paper prd=t 728
+juice-sat-cord-ms=t biscuits=t frozen foods=t milk-cream=t 788
+juice-sat-cord-ms=t biscuits=t frozen foods=t margarine=t 745
+juice-sat-cord-ms=t biscuits=t frozen foods=t fruit=t 856
+juice-sat-cord-ms=t biscuits=t frozen foods=t vegetables=t 839
+juice-sat-cord-ms=t biscuits=t frozen foods=t total=high 720
+juice-sat-cord-ms=t biscuits=t party snack foods=t milk-cream=t 730
+juice-sat-cord-ms=t biscuits=t party snack foods=t fruit=t 787
+juice-sat-cord-ms=t biscuits=t party snack foods=t vegetables=t 761
+juice-sat-cord-ms=t biscuits=t tissues-paper prd=t fruit=t 701
+juice-sat-cord-ms=t biscuits=t milk-cream=t fruit=t 799
+juice-sat-cord-ms=t biscuits=t milk-cream=t vegetables=t 761
+juice-sat-cord-ms=t biscuits=t margarine=t fruit=t 699
+juice-sat-cord-ms=t biscuits=t fruit=t vegetables=t 883
+juice-sat-cord-ms=t sauces-gravy-pkle=t frozen foods=t party snack foods=t 701
+juice-sat-cord-ms=t sauces-gravy-pkle=t frozen foods=t fruit=t 701
+juice-sat-cord-ms=t sauces-gravy-pkle=t frozen foods=t vegetables=t 715
+juice-sat-cord-ms=t sauces-gravy-pkle=t fruit=t vegetables=t 751
+juice-sat-cord-ms=t frozen foods=t party snack foods=t milk-cream=t 716
+juice-sat-cord-ms=t frozen foods=t party snack foods=t fruit=t 766
+juice-sat-cord-ms=t frozen foods=t party snack foods=t vegetables=t 767
+juice-sat-cord-ms=t frozen foods=t tissues-paper prd=t fruit=t 711
+juice-sat-cord-ms=t frozen foods=t tissues-paper prd=t vegetables=t 718
+juice-sat-cord-ms=t frozen foods=t milk-cream=t fruit=t 826
+juice-sat-cord-ms=t frozen foods=t milk-cream=t vegetables=t 813
+juice-sat-cord-ms=t frozen foods=t margarine=t fruit=t 706
+juice-sat-cord-ms=t frozen foods=t margarine=t vegetables=t 721
+juice-sat-cord-ms=t frozen foods=t fruit=t vegetables=t 920
+juice-sat-cord-ms=t frozen foods=t vegetables=t total=high 701
+juice-sat-cord-ms=t party snack foods=t milk-cream=t fruit=t 724
+juice-sat-cord-ms=t party snack foods=t milk-cream=t vegetables=t 697
+juice-sat-cord-ms=t party snack foods=t fruit=t vegetables=t 804
+juice-sat-cord-ms=t tissues-paper prd=t milk-cream=t fruit=t 697
+juice-sat-cord-ms=t tissues-paper prd=t fruit=t vegetables=t 767
+juice-sat-cord-ms=t milk-cream=t fruit=t vegetables=t 920
+juice-sat-cord-ms=t margarine=t fruit=t vegetables=t 760
+juice-sat-cord-ms=t fruit=t vegetables=t total=high 731
+biscuits=t breakfast food=t fruit=t vegetables=t 725
+biscuits=t sauces-gravy-pkle=t frozen foods=t party snack foods=t 774
+biscuits=t sauces-gravy-pkle=t frozen foods=t tissues-paper prd=t 702
+biscuits=t sauces-gravy-pkle=t frozen foods=t milk-cream=t 752
+biscuits=t sauces-gravy-pkle=t frozen foods=t margarine=t 697
+biscuits=t sauces-gravy-pkle=t frozen foods=t fruit=t 796
+biscuits=t sauces-gravy-pkle=t frozen foods=t vegetables=t 810
+biscuits=t sauces-gravy-pkle=t frozen foods=t total=high 731
+biscuits=t sauces-gravy-pkle=t party snack foods=t fruit=t 704
+biscuits=t sauces-gravy-pkle=t party snack foods=t vegetables=t 718
+biscuits=t sauces-gravy-pkle=t milk-cream=t fruit=t 728
+biscuits=t sauces-gravy-pkle=t milk-cream=t vegetables=t 728
+biscuits=t sauces-gravy-pkle=t fruit=t vegetables=t 822
+biscuits=t frozen foods=t party snack foods=t tissues-paper prd=t 749
+biscuits=t frozen foods=t party snack foods=t milk-cream=t 812
+biscuits=t frozen foods=t party snack foods=t margarine=t 729
+biscuits=t frozen foods=t party snack foods=t fruit=t 872
+biscuits=t frozen foods=t party snack foods=t vegetables=t 853
+biscuits=t frozen foods=t party snack foods=t total=high 747
+biscuits=t frozen foods=t tissues-paper prd=t milk-cream=t 753
+biscuits=t frozen foods=t tissues-paper prd=t margarine=t 732
+biscuits=t frozen foods=t tissues-paper prd=t fruit=t 810
+biscuits=t frozen foods=t tissues-paper prd=t vegetables=t 795
+biscuits=t frozen foods=t tissues-paper prd=t total=high 742
+biscuits=t frozen foods=t cheese=t vegetables=t 700
+biscuits=t frozen foods=t milk-cream=t margarine=t 784
+biscuits=t frozen foods=t milk-cream=t fruit=t 941
+biscuits=t frozen foods=t milk-cream=t vegetables=t 915
+biscuits=t frozen foods=t milk-cream=t total=high 748
+biscuits=t frozen foods=t margarine=t fruit=t 811
+biscuits=t frozen foods=t margarine=t vegetables=t 811
+biscuits=t frozen foods=t margarine=t total=high 721
+biscuits=t frozen foods=t fruit=t vegetables=t 1039
+biscuits=t frozen foods=t fruit=t total=high 788
+biscuits=t frozen foods=t vegetables=t total=high 797
+biscuits=t pet foods=t fruit=t vegetables=t 710
+biscuits=t party snack foods=t tissues-paper prd=t fruit=t 718
+biscuits=t party snack foods=t tissues-paper prd=t vegetables=t 706
+biscuits=t party snack foods=t milk-cream=t fruit=t 818
+biscuits=t party snack foods=t milk-cream=t vegetables=t 783
+biscuits=t party snack foods=t fruit=t vegetables=t 904
+biscuits=t party snack foods=t fruit=t total=high 695
+biscuits=t tissues-paper prd=t milk-cream=t fruit=t 767
+biscuits=t tissues-paper prd=t milk-cream=t vegetables=t 737
+biscuits=t tissues-paper prd=t margarine=t fruit=t 708
+biscuits=t tissues-paper prd=t margarine=t vegetables=t 694
+biscuits=t tissues-paper prd=t fruit=t vegetables=t 853
+biscuits=t tissues-paper prd=t fruit=t total=high 697
+biscuits=t tissues-paper prd=t vegetables=t total=high 702
+biscuits=t cheese=t fruit=t vegetables=t 744
+biscuits=t milk-cream=t margarine=t fruit=t 774
+biscuits=t milk-cream=t margarine=t vegetables=t 750
+biscuits=t milk-cream=t fruit=t vegetables=t 1015
+biscuits=t milk-cream=t fruit=t total=high 725
+biscuits=t milk-cream=t vegetables=t total=high 716
+biscuits=t margarine=t fruit=t vegetables=t 856
+biscuits=t fruit=t vegetables=t total=high 815
+breakfast food=t frozen foods=t fruit=t vegetables=t 735
+breakfast food=t milk-cream=t fruit=t vegetables=t 750
+sauces-gravy-pkle=t frozen foods=t party snack foods=t fruit=t 706
+sauces-gravy-pkle=t frozen foods=t party snack foods=t vegetables=t 724
+sauces-gravy-pkle=t frozen foods=t tissues-paper prd=t vegetables=t 708
+sauces-gravy-pkle=t frozen foods=t milk-cream=t fruit=t 771
+sauces-gravy-pkle=t frozen foods=t milk-cream=t vegetables=t 782
+sauces-gravy-pkle=t frozen foods=t fruit=t vegetables=t 868
+sauces-gravy-pkle=t frozen foods=t vegetables=t total=high 713
+sauces-gravy-pkle=t party snack foods=t fruit=t vegetables=t 747
+sauces-gravy-pkle=t tissues-paper prd=t fruit=t vegetables=t 746
+sauces-gravy-pkle=t milk-cream=t fruit=t vegetables=t 869
+sauces-gravy-pkle=t margarine=t fruit=t vegetables=t 716
+sauces-gravy-pkle=t fruit=t vegetables=t total=high 733
+frozen foods=t pet foods=t fruit=t vegetables=t 752
+frozen foods=t party snack foods=t tissues-paper prd=t fruit=t 709
+frozen foods=t party snack foods=t tissues-paper prd=t vegetables=t 706
+frozen foods=t party snack foods=t milk-cream=t fruit=t 803
+frozen foods=t party snack foods=t milk-cream=t vegetables=t 776
+frozen foods=t party snack foods=t fruit=t vegetables=t 884
+frozen foods=t party snack foods=t fruit=t total=high 697
+frozen foods=t party snack foods=t vegetables=t total=high 698
+frozen foods=t tissues-paper prd=t milk-cream=t fruit=t 807
+frozen foods=t tissues-paper prd=t milk-cream=t vegetables=t 797
+frozen foods=t tissues-paper prd=t margarine=t fruit=t 697
+frozen foods=t tissues-paper prd=t margarine=t vegetables=t 722
+frozen foods=t tissues-paper prd=t fruit=t vegetables=t 887
+frozen foods=t tissues-paper prd=t fruit=t total=high 708
+frozen foods=t tissues-paper prd=t vegetables=t total=high 731
+frozen foods=t cheese=t fruit=t vegetables=t 725
+frozen foods=t milk-cream=t margarine=t fruit=t 766
+frozen foods=t milk-cream=t margarine=t vegetables=t 784
+frozen foods=t milk-cream=t fruit=t vegetables=t 1057
+frozen foods=t milk-cream=t fruit=t total=high 743
+frozen foods=t milk-cream=t vegetables=t total=high 748
+frozen foods=t margarine=t fruit=t vegetables=t 858
+frozen foods=t margarine=t vegetables=t total=high 694
+frozen foods=t beef=t fruit=t vegetables=t 717
+frozen foods=t fruit=t vegetables=t total=high 834
+pet foods=t milk-cream=t fruit=t vegetables=t 769
+party snack foods=t tissues-paper prd=t fruit=t vegetables=t 750
+party snack foods=t milk-cream=t fruit=t vegetables=t 863
+party snack foods=t margarine=t fruit=t vegetables=t 701
+party snack foods=t fruit=t vegetables=t total=high 720
+tissues-paper prd=t milk-cream=t fruit=t vegetables=t 897
+tissues-paper prd=t margarine=t fruit=t vegetables=t 770
+tissues-paper prd=t fruit=t vegetables=t total=high 754
+cheese=t milk-cream=t fruit=t vegetables=t 765
+milk-cream=t margarine=t fruit=t vegetables=t 882
+milk-cream=t beef=t fruit=t vegetables=t 716
+milk-cream=t fruit=t vegetables=t total=low 763
+milk-cream=t fruit=t vegetables=t total=high 808
+margarine=t fruit=t vegetables=t total=high 711
+
+Size of set of large itemsets L(5): 105
+
+Large Itemsets L(5):
+bread and cake=t baking needs=t juice-sat-cord-ms=t biscuits=t frozen foods=t 730
+bread and cake=t baking needs=t juice-sat-cord-ms=t biscuits=t fruit=t 706
+bread and cake=t baking needs=t juice-sat-cord-ms=t frozen foods=t milk-cream=t 694
+bread and cake=t baking needs=t juice-sat-cord-ms=t frozen foods=t fruit=t 716
+bread and cake=t baking needs=t juice-sat-cord-ms=t frozen foods=t vegetables=t 720
+bread and cake=t baking needs=t juice-sat-cord-ms=t milk-cream=t fruit=t 695
+bread and cake=t baking needs=t juice-sat-cord-ms=t milk-cream=t vegetables=t 700
+bread and cake=t baking needs=t juice-sat-cord-ms=t fruit=t vegetables=t 767
+bread and cake=t baking needs=t biscuits=t sauces-gravy-pkle=t frozen foods=t 701
+bread and cake=t baking needs=t biscuits=t frozen foods=t party snack foods=t 750
+bread and cake=t baking needs=t biscuits=t frozen foods=t tissues-paper prd=t 729
+bread and cake=t baking needs=t biscuits=t frozen foods=t milk-cream=t 824
+bread and cake=t baking needs=t biscuits=t frozen foods=t margarine=t 759
+bread and cake=t baking needs=t biscuits=t frozen foods=t fruit=t 854
+bread and cake=t baking needs=t biscuits=t frozen foods=t vegetables=t 848
+bread and cake=t baking needs=t biscuits=t frozen foods=t total=high 742
+bread and cake=t baking needs=t biscuits=t party snack foods=t fruit=t 720
+bread and cake=t baking needs=t biscuits=t party snack foods=t vegetables=t 709
+bread and cake=t baking needs=t biscuits=t tissues-paper prd=t fruit=t 704
+bread and cake=t baking needs=t biscuits=t tissues-paper prd=t vegetables=t 706
+bread and cake=t baking needs=t biscuits=t milk-cream=t margarine=t 706
+bread and cake=t baking needs=t biscuits=t milk-cream=t fruit=t 816
+bread and cake=t baking needs=t biscuits=t milk-cream=t vegetables=t 796
+bread and cake=t baking needs=t biscuits=t margarine=t fruit=t 731
+bread and cake=t baking needs=t biscuits=t margarine=t vegetables=t 729
+bread and cake=t baking needs=t biscuits=t fruit=t vegetables=t 896
+bread and cake=t baking needs=t biscuits=t fruit=t total=high 696
+bread and cake=t baking needs=t biscuits=t vegetables=t total=high 701
+bread and cake=t baking needs=t sauces-gravy-pkle=t frozen foods=t vegetables=t 700
+bread and cake=t baking needs=t sauces-gravy-pkle=t fruit=t vegetables=t 747
+bread and cake=t baking needs=t frozen foods=t party snack foods=t fruit=t 701
+bread and cake=t baking needs=t frozen foods=t party snack foods=t vegetables=t 700
+bread and cake=t baking needs=t frozen foods=t tissues-paper prd=t milk-cream=t 700
+bread and cake=t baking needs=t frozen foods=t tissues-paper prd=t fruit=t 717
+bread and cake=t baking needs=t frozen foods=t tissues-paper prd=t vegetables=t 736
+bread and cake=t baking needs=t frozen foods=t milk-cream=t margarine=t 722
+bread and cake=t baking needs=t frozen foods=t milk-cream=t fruit=t 828
+bread and cake=t baking needs=t frozen foods=t milk-cream=t vegetables=t 834
+bread and cake=t baking needs=t frozen foods=t margarine=t fruit=t 720
+bread and cake=t baking needs=t frozen foods=t margarine=t vegetables=t 743
+bread and cake=t baking needs=t frozen foods=t fruit=t vegetables=t 910
+bread and cake=t baking needs=t frozen foods=t fruit=t total=high 705
+bread and cake=t baking needs=t frozen foods=t vegetables=t total=high 721
+bread and cake=t baking needs=t party snack foods=t fruit=t vegetables=t 748
+bread and cake=t baking needs=t tissues-paper prd=t milk-cream=t fruit=t 721
+bread and cake=t baking needs=t tissues-paper prd=t milk-cream=t vegetables=t 727
+bread and cake=t baking needs=t tissues-paper prd=t fruit=t vegetables=t 792
+bread and cake=t baking needs=t milk-cream=t margarine=t fruit=t 738
+bread and cake=t baking needs=t milk-cream=t margarine=t vegetables=t 754
+bread and cake=t baking needs=t milk-cream=t fruit=t vegetables=t 939
+bread and cake=t baking needs=t margarine=t fruit=t vegetables=t 814
+bread and cake=t baking needs=t fruit=t vegetables=t total=high 752
+bread and cake=t juice-sat-cord-ms=t biscuits=t frozen foods=t party snack foods=t 701
+bread and cake=t juice-sat-cord-ms=t biscuits=t frozen foods=t fruit=t 758
+bread and cake=t juice-sat-cord-ms=t biscuits=t frozen foods=t vegetables=t 735
+bread and cake=t juice-sat-cord-ms=t biscuits=t milk-cream=t fruit=t 699
+bread and cake=t juice-sat-cord-ms=t biscuits=t fruit=t vegetables=t 778
+bread and cake=t juice-sat-cord-ms=t frozen foods=t milk-cream=t fruit=t 712
+bread and cake=t juice-sat-cord-ms=t frozen foods=t milk-cream=t vegetables=t 702
+bread and cake=t juice-sat-cord-ms=t frozen foods=t fruit=t vegetables=t 790
+bread and cake=t juice-sat-cord-ms=t milk-cream=t fruit=t vegetables=t 783
+bread and cake=t biscuits=t sauces-gravy-pkle=t frozen foods=t fruit=t 698
+bread and cake=t biscuits=t sauces-gravy-pkle=t frozen foods=t vegetables=t 708
+bread and cake=t biscuits=t sauces-gravy-pkle=t fruit=t vegetables=t 722
+bread and cake=t biscuits=t frozen foods=t party snack foods=t milk-cream=t 711
+bread and cake=t biscuits=t frozen foods=t party snack foods=t fruit=t 771
+bread and cake=t biscuits=t frozen foods=t party snack foods=t vegetables=t 748
+bread and cake=t biscuits=t frozen foods=t tissues-paper prd=t fruit=t 717
+bread and cake=t biscuits=t frozen foods=t tissues-paper prd=t vegetables=t 707
+bread and cake=t biscuits=t frozen foods=t milk-cream=t margarine=t 695
+bread and cake=t biscuits=t frozen foods=t milk-cream=t fruit=t 840
+bread and cake=t biscuits=t frozen foods=t milk-cream=t vegetables=t 819
+bread and cake=t biscuits=t frozen foods=t margarine=t fruit=t 722
+bread and cake=t biscuits=t frozen foods=t margarine=t vegetables=t 720
+bread and cake=t biscuits=t frozen foods=t fruit=t vegetables=t 929
+bread and cake=t biscuits=t frozen foods=t fruit=t total=high 723
+bread and cake=t biscuits=t frozen foods=t vegetables=t total=high 725
+bread and cake=t biscuits=t party snack foods=t milk-cream=t fruit=t 718
+bread and cake=t biscuits=t party snack foods=t fruit=t vegetables=t 798
+bread and cake=t biscuits=t tissues-paper prd=t fruit=t vegetables=t 752
+bread and cake=t biscuits=t milk-cream=t fruit=t vegetables=t 892
+bread and cake=t biscuits=t margarine=t fruit=t vegetables=t 766
+bread and cake=t biscuits=t fruit=t vegetables=t total=high 746
+bread and cake=t sauces-gravy-pkle=t frozen foods=t fruit=t vegetables=t 757
+bread and cake=t sauces-gravy-pkle=t milk-cream=t fruit=t vegetables=t 744
+bread and cake=t frozen foods=t party snack foods=t milk-cream=t fruit=t 709
+bread and cake=t frozen foods=t party snack foods=t fruit=t vegetables=t 778
+bread and cake=t frozen foods=t tissues-paper prd=t milk-cream=t fruit=t 706
+bread and cake=t frozen foods=t tissues-paper prd=t milk-cream=t vegetables=t 704
+bread and cake=t frozen foods=t tissues-paper prd=t fruit=t vegetables=t 780
+bread and cake=t frozen foods=t milk-cream=t fruit=t vegetables=t 922
+bread and cake=t frozen foods=t margarine=t fruit=t vegetables=t 754
+bread and cake=t frozen foods=t fruit=t vegetables=t total=high 757
+bread and cake=t party snack foods=t milk-cream=t fruit=t vegetables=t 746
+bread and cake=t tissues-paper prd=t milk-cream=t fruit=t vegetables=t 774
+bread and cake=t milk-cream=t margarine=t fruit=t vegetables=t 774
+bread and cake=t milk-cream=t fruit=t vegetables=t total=high 725
+baking needs=t biscuits=t frozen foods=t milk-cream=t fruit=t 715
+baking needs=t biscuits=t frozen foods=t milk-cream=t vegetables=t 705
+baking needs=t biscuits=t frozen foods=t fruit=t vegetables=t 796
+baking needs=t biscuits=t milk-cream=t fruit=t vegetables=t 753
+baking needs=t frozen foods=t milk-cream=t fruit=t vegetables=t 778
+juice-sat-cord-ms=t biscuits=t frozen foods=t fruit=t vegetables=t 698
+biscuits=t frozen foods=t party snack foods=t fruit=t vegetables=t 707
+biscuits=t frozen foods=t milk-cream=t fruit=t vegetables=t 760
+
+Size of set of large itemsets L(6): 1
+
+Large Itemsets L(6):
+bread and cake=t baking needs=t biscuits=t frozen foods=t fruit=t vegetables=t 716
+
+Best rules found:
+
+ 1. biscuits=t frozen foods=t fruit=t total=high 788 ==> bread and cake=t 723    <conf:(0.92)> lift:(1.27) lev:(0.03) [155] conv:(3.35)
+ 2. baking needs=t biscuits=t fruit=t total=high 760 ==> bread and cake=t 696    <conf:(0.92)> lift:(1.27) lev:(0.03) [149] conv:(3.28)
+ 3. baking needs=t frozen foods=t fruit=t total=high 770 ==> bread and cake=t 705    <conf:(0.92)> lift:(1.27) lev:(0.03) [150] conv:(3.27)
+ 4. biscuits=t fruit=t vegetables=t total=high 815 ==> bread and cake=t 746    <conf:(0.92)> lift:(1.27) lev:(0.03) [159] conv:(3.26)
+ 5. party snack foods=t fruit=t total=high 854 ==> bread and cake=t 779    <conf:(0.91)> lift:(1.27) lev:(0.04) [164] conv:(3.15)
+ 6. biscuits=t frozen foods=t vegetables=t total=high 797 ==> bread and cake=t 725    <conf:(0.91)> lift:(1.26) lev:(0.03) [151] conv:(3.06)
+ 7. baking needs=t biscuits=t vegetables=t total=high 772 ==> bread and cake=t 701    <conf:(0.91)> lift:(1.26) lev:(0.03) [145] conv:(3.01)
+ 8. biscuits=t fruit=t total=high 954 ==> bread and cake=t 866    <conf:(0.91)> lift:(1.26) lev:(0.04) [179] conv:(3)
+ 9. frozen foods=t fruit=t vegetables=t total=high 834 ==> bread and cake=t 757    <conf:(0.91)> lift:(1.26) lev:(0.03) [156] conv:(3)
+10. frozen foods=t fruit=t total=high 969 ==> bread and cake=t 877    <conf:(0.91)> lift:(1.26) lev:(0.04) [179] conv:(2.92)
+

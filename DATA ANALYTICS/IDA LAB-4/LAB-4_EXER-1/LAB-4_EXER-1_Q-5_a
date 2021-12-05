@@ -1,0 +1,42 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     Cereals-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-R12,13-weka.filters.unsupervised.attribute.Remove-R1-3,5,9,11,13-15-weka.filters.unsupervised.attribute.Remove-R6
+Instances:    76
+Attributes:   6
+              calories
+              fat
+              sodium
+              fiber
+              sugars
+              rating
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+rating =
+
+     -3.3119 * fat +
+     -0.056  * sodium +
+      2.8371 * fiber +
+     -1.9537 * sugars +
+     62.5812
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.9879
+Mean absolute error                      1.7739
+Root mean squared error                  2.2563
+Relative absolute error                 16.8851 %
+Root relative squared error             17.1111 %
+Total Number of Instances               15     
+

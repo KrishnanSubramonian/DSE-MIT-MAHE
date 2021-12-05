@@ -1,0 +1,43 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -I -N 5 -T 0 -C 0.001 -D 0.05 -U 1.0 -M 0.001 -S -1.0 -c -1
+Relation:     supermarket-weka.filters.unsupervised.attribute.Remove-R12-56,58-69,71-78,82-87,90-97,99,103-106,115,121,131-136,180-191,200,217-weka.filters.unsupervised.attribute.Remove-R10
+Instances:    4627
+Attributes:   110
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.05 (236 instances)
+Minimum metric <confidence>: 0
+Number of cycles performed: 19
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Large Itemsets L(1):
+department1=t 1047
+department79=t 390
+department122=t 1112
+department130=t 329
+department137=t 1854
+
+Size of set of large itemsets L(2): 3
+
+Large Itemsets L(2):
+department1=t department122=t 288
+department1=t department137=t 454
+department122=t department137=t 549
+
+Best rules found:
+
+1. department122=t 1112 ==> department137=t 549    <conf:(0.49)> lift:(1.23) lev:(0.02) [103] conv:(1.18)
+2. department1=t 1047 ==> department137=t 454    <conf:(0.43)> lift:(1.08) lev:(0.01) [34] conv:(1.06)
+3. department137=t 1854 ==> department122=t 549    <conf:(0.3)> lift:(1.23) lev:(0.02) [103] conv:(1.08)
+4. department1=t 1047 ==> department122=t 288    <conf:(0.28)> lift:(1.14) lev:(0.01) [36] conv:(1.05)
+5. department122=t 1112 ==> department1=t 288    <conf:(0.26)> lift:(1.14) lev:(0.01) [36] conv:(1.04)
+

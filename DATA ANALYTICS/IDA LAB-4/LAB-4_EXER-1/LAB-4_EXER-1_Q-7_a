@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     Cereals-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-R12,13-weka.filters.unsupervised.attribute.Remove-R1-3,5,9,11,13-15-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Discretize-B5-M-1.0-R6-precision6-unset-class-temporarily
+Instances:    76
+Attributes:   6
+              calories
+              fat
+              sodium
+              fiber
+              sugars
+              rating
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                               Class
+Variable          '(-inf-33.175263]'  '(33.175263-48.307675]'  '(48.307675-63.440088]'    '(63.440088-78.5725]'
+===============================================================================================================
+calories                     -0.2598                  -0.9547                  -1.0933                   4.7177
+fat                          49.4846                  22.6712                  21.7602                 -22.1037
+sodium                        2.1995                   0.6461                   0.6228                  -0.3779
+fiber                       -64.0982                 -20.5884                 -19.2933                   9.8776
+sugars                       43.8548                   7.1726                   6.1274                 -30.5316
+Intercept                  -578.5931                 122.2811                 143.3543                -338.0324
+
+
+Odds Ratios...
+                               Class
+Variable          '(-inf-33.175263]'  '(33.175263-48.307675]'  '(48.307675-63.440088]'    '(63.440088-78.5725]'
+===============================================================================================================
+calories                      0.7712                   0.3849                   0.3351                 111.9154
+fat            3.0965059451338154E21          7014407400.9919           2820532698.978                        0
+sodium                        9.0209                    1.908                   1.8642                   0.6853
+fiber                              0                        0                        0               19488.3725
+sugars         1.1114209224450488E19                1303.1723                 458.2268                        0
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14               93.3333 %
+Incorrectly Classified Instances         1                6.6667 %
+Kappa statistic                          0.9051
+Mean absolute error                      0.0413
+Root mean squared error                  0.169 
+Relative absolute error                 14.7447 %
+Root relative squared error             44.9686 %
+Total Number of Instances               15     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     '(-inf-33.175263]'
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     '(33.175263-48.307675]'
+                 0.800    0.000    1.000      0.800    0.889      0.853    0.880     0.891     '(48.307675-63.440088]'
+                 1.000    0.071    0.500      1.000    0.667      0.681    1.000     1.000     '(63.440088-78.5725]'
+                 ?        0.000    ?          ?        ?          ?        ?         ?         '(78.5725-inf)'
+Weighted Avg.    0.933    0.005    0.967      0.933    0.941      0.930    0.960     0.964     
+
+=== Confusion Matrix ===
+
+ a b c d e   <-- classified as
+ 3 0 0 0 0 | a = '(-inf-33.175263]'
+ 0 6 0 0 0 | b = '(33.175263-48.307675]'
+ 0 0 4 1 0 | c = '(48.307675-63.440088]'
+ 0 0 0 1 0 | d = '(63.440088-78.5725]'
+ 0 0 0 0 0 | e = '(78.5725-inf)'
+
